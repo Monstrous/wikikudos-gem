@@ -6,12 +6,14 @@ Gem::Specification.new do |s|
   s.name        = "candy-gem"
   s.version     = Candy::Gem::VERSION
   s.authors     = ["Corprew Reed"]
+  s.license     = "Copyright 2011 Monstrous Corporation"
+  s.required_ruby_version = '>= 1.9.2'
   s.email       = ["github@corprew.org"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.homepage    = "http://github.com/monstrous/candy-gem"
+  s.summary     = %q{candy from strangers 'artist' gem}
+  s.description = %q{This is an artist gem.  it is used for loading artist information into soniverse.  It is basically a great time.}
 
-  s.rubyforge_project = "candy-gem"
+
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
