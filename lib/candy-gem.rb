@@ -1,8 +1,10 @@
-require "candy-gem/version"
-require "rails"
 
+Dir["lib/tasks/**/*.rake"].each { |ext| load ext } if defined?(Rake)
 
 module Candy
-  module Gem
+  class Engine < Rails::Engine
+    initializer "static assets" do |app|
+      app.middleware.use ::ActionDispatch::Static, "#{root}/public"
+    end
   end
 end
