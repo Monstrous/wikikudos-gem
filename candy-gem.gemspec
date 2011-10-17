@@ -5,12 +5,12 @@
 
 Gem::Specification.new do |s|
   s.name = %q{candy-gem}
-  s.version = "0.1.1"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Corprew Reed}]
   s.date = %q{2011-10-17}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{Artist Gem for Candy}
   s.email = %q{github@corprew.org}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -33,7 +33,7 @@ Gem::Specification.new do |s|
   s.licenses = [%q{Copyright (c) 2011 Monstrous}]
   s.require_paths = [%q{lib}]
   s.rubygems_version = %q{1.8.6}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{Artist Gem for Candy}
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
