@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "candy-gem"
   gem.homepage = "http://github.com/Monstrous/candy-gem"
   gem.license = "Copyright (c) 2011 Monstrous"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Artist Gem for Candy}
+  gem.description = %Q{Artist Gem for Candy}
   gem.email = "github@corprew.org"
   gem.authors = ["Corprew Reed"]
   # dependencies defined in Gemfile
