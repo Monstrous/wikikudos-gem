@@ -8,32 +8,6 @@ require 'csv'
 #  USERS...  PUT ALL USER INFORMATION HERE.
 #
 
-if Admin.all.empty? && Rails.env.development?
-  Admin.create do | a |
-    a.email = 'soniverse@example.com'
-    a.password = ENV['USER']
-    a.password_confirmation = ENV['USER']
-  end
-end
-
-if Admin.all.empty? && Rails.env.production?
-  Admin.create do | a |
-    a.email = 'soniverse@example.com'
-    a.password = '5C2250E5-6FEA-4B9F-9B1E-2DE5366EA011'
-    a.password_confirmation = '5C2250E5-6FEA-4B9F-9B1E-2DE5366EA011'
-  end
-end
-
-
-
-if Support.all.empty? && Rails.env.development?
-  Support.create do | a |
-    a.email = 'soniverse@example.com'
-    a.password = ENV['USER']
-    a.password_confirmation = ENV['USER']
-  end
-end
-
 #
 #   LEVELS
 #
@@ -113,15 +87,6 @@ end
 CSV.read("db/seeddata/purchase.csv").select{|x| x[0].downcase != "name"}.each do |row|
   Purchase.default(row[0].downcase,row[0],row[1],row[2],row[3],row[4],row[5])
 end
-
-
-#
-#  Internal Users
-#  self created if it can't be loaded.
-#
-
-InternalUser.system_user
-InternalUser.advert_user    # FIXME - this is potentially broken
 
 #
 #  ActivitySeeds
