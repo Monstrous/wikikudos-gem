@@ -8,8 +8,8 @@ namespace :soniverse do
         load(seed_file) if File.exist?(seed_file)
       end
       
-      desc 'print the gem root (helpfulish)' do
-      task :print_root do
+      desc 'print the gem root (helpfulish)' 
+      task :print_root => 'db:abort_if_pending_migrations' do
         puts "#{root}"
       end
       
