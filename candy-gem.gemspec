@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "candy-gem.gemspec",
     "lib/candy-gem.rb",
     "test/helper.rb",
     "test/test_candy-gem.rb"
