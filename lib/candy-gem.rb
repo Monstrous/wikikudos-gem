@@ -1,7 +1,8 @@
 require "candy-gem/version"
+require "rails"
+
 
 module Candy
   module Gem
-    # Your code goes here...
   end
 end
