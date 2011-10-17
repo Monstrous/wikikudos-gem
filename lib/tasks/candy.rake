@@ -7,6 +7,12 @@ namespace :soniverse do
         seed_file = File.join("#{root}", 'db', 'seeds.rb')
         load(seed_file) if File.exist?(seed_file)
       end
+      
+      desc 'print the gem root (helpfulish)' do
+      task :print_root do
+        puts "#{root}"
+      end
+      
     end
   end
 end
