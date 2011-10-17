@@ -1,0 +1,41 @@
+target,sent,received ,badge,level,type,sender,recipient
+alice,0,0,0,1,2,0,0
+alice,0,0,1,0,Invite,0,0
+alice,0,0,1,0,Newbie,0,0
+alice,1,0,0,0,Baby!,alice,jason
+alice,0,1,0,0,Dog Tags,jason,alice
+alice,0,1,0,0,Justin's Diary,bob,alice
+alice,0,1,0,0,Bieberverse,charlie,alice
+alice,0,1,0,0,That Should Be Me,eric,alice
+bob,0,0,0,1,2,0,0
+bob,0,0,1,0,Invite,0,0
+bob,0,0,1,0,Newbie,0,0
+bob,1,0,0,0,Baby!,bob,alice
+bob,0,1,0,0,Dog Tags,jason,bob
+bob,0,1,0,0,Justin's Diary,alice,bob
+bob,0,1,0,0,Bieberverse,charlie,bob
+bob,0,1,0,0,That Should Be Me,eric,bob
+charlie,0,0,0,1,2,0,0
+charlie,0,0,1,0,Invite,0,0
+charlie,0,0,1,0,Newbie,0,0
+charlie,1,0,0,0,Baby!,charlie,alice
+charlie,0,1,0,0,Dog Tags,jason,charlie
+charlie,0,1,0,0,Justin's Diary,bob,charlie
+charlie,0,1,0,0,Bieberverse,jason,charlie
+charlie,0,1,0,0,That Should Be Me,eric,charlie
+jason,0,0,0,1,2,0,0
+jason,0,0,1,0,Invite,0,0
+jason,0,0,1,0,Newbie,0,0
+jason,1,0,0,0,Baby!,jason,alice
+jason,0,1,0,0,Dog Tags,alice,jason
+jason,0,1,0,0,Justin's Diary,bob,jason
+jason,0,1,0,0,Bieberverse,charlie,jason
+jason,0,1,0,0,That Should Be Me,eric,jason
+eric,0,0,0,1,2,0,0
+eric,0,0,1,0,Invite,0,0
+eric,0,0,1,0,Newbie,0,0
+eric,1,0,0,0,Baby!,eric,alice
+eric,0,1,0,0,Dog Tags,jason,eric
+eric,0,1,0,0,Justin's Diary,bob,eric
+eric,0,1,0,0,Bieberverse,charlie,eric
+eric,0,1,0,0,That Should Be Me,alice,eric
