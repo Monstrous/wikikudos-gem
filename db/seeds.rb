@@ -67,7 +67,7 @@ end
 
 
 CSV.read("#{base}/seeddata/songs.csv").select{|x| x[0].downcase != "title"}.each do |row|
-  Song.default(:name => row[0], :artist => row[1], :level_num => row[2], :star_cost => row[3], :unity => "#{base}/#{row[4]}", :pre_video=> "#{base}/#{row[5]}", :pre_image => "#{base}/#{row[6]}", :icon => "#{base}/#{row[7]}")
+  Song.default(:name => row[0], :artist => row[1], :level_num => row[2], :star_cost => row[3], :unity => "#{base}/seeddata/assets/#{row[4]}", :pre_video=> "#{base}/seeddata/assets/#{row[5]}", :pre_image => "#{base}/seeddata/assets/#{row[6]}", :icon => "#{base}/seeddata/assets/#{row[7]}")
 end
 
 
