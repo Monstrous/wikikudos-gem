@@ -1,7 +1,7 @@
 require 'csv'
 
 base = File.dirname(__FILE__)
-puts "bees:" 
+puts "Gem Root:" 
 puts base
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
@@ -43,8 +43,8 @@ Setting.default('inventory_max_gear', "Max Amount of User Gear", "12")
 # def self.default(stub, name, desc, hint, stars, points, asset=nil)
 # Title,Description,Hint,Stars,Points
 
-CSV.read("#{base}/db/seeddata/badges.csv").select{|x| x[0] != "Title"}.each do |row|
-    Badge.default(row[0].downcase, row[0], row[1], row[2], row[3].to_i, row[4].to_i, "#{base}/db/seeddata/assets/#{row[5]}")
+CSV.read("#{base}/seeddata/badges.csv").select{|x| x[0] != "Title"}.each do |row|
+    Badge.default(row[0].downcase, row[0], row[1], row[2], row[3].to_i, row[4].to_i, "#{base}/seeddata/assets/#{row[5]}")
 end
 
 #
@@ -55,8 +55,8 @@ end
 #def self.default(stub, title,description,preview,thumbnail, level,star_cost, image,audio,video,aff_text,aff_link)
 
 
-CSV.read("db/seeddata/dedications.csv").select{|x| x[0].downcase != "title"}.each do |row|
-  Dedication.default(row[0].downcase,row[0],row[1],"db/seeddata/assets/#{row[5]}","db/seeddata/assets/#{row[6]}",row[7],row[8], "db/seeddata/assets/#{row[2]}","db/seeddata/assets/#{row[3]}","db/seeddata/assets/#{row[4]}",row[9],row[10])
+CSV.read("#{base}/seeddata/dedications.csv").select{|x| x[0].downcase != "title"}.each do |row|
+  Dedication.default(row[0].downcase,row[0],row[1],"#{base}/seeddata/assets/#{row[5]}","#{base}/seeddata/assets/#{row[6]}",row[7],row[8], "#{base}/seeddata/assets/#{row[2]}","#{base}/seeddata/assets/#{row[3]}","#{base}/seeddata/assets/#{row[4]}",row[9],row[10])
 end
 
 
@@ -66,7 +66,7 @@ end
 # Title,Level,Cost,Game,Preview Video,Preview Image,Icon
 
 
-CSV.read("db/seeddata/songs.csv").select{|x| x[0].downcase != "title"}.each do |row|
+CSV.read("#{base}/seeddata/songs.csv").select{|x| x[0].downcase != "title"}.each do |row|
   Song.default(:name => row[0], :artist => row[1], :level_num => row[2], :star_cost => row[3], :unity => row[4], :pre_video=> row[5], :pre_image => row[6], :icon => row[7])
 end
 
@@ -77,7 +77,7 @@ end
 #  name,description,long,square,icon,star_cost
 
 
-CSV.read("db/seeddata/gear.csv").select{|x| x[0].downcase != "name"}.each do |row|
+CSV.read("#{base}/seeddata/gear.csv").select{|x| x[0].downcase != "name"}.each do |row|
   Gear.default(:name => row[0], :desc => row[1], :long => row[2], :square => row[3], :icon => row[4], :cost => row[5])
 end
 
@@ -87,7 +87,7 @@ end
 #  name,description,product_url,image_url,stars,fb_credits
 
 
-CSV.read("db/seeddata/purchase.csv").select{|x| x[0].downcase != "name"}.each do |row|
+CSV.read("#{base}/seeddata/purchase.csv").select{|x| x[0].downcase != "name"}.each do |row|
   Purchase.default(row[0].downcase,row[0],row[1],row[2],row[3],row[4],row[5])
 end
 
