@@ -44,7 +44,7 @@ Setting.default('inventory_max_gear', "Max Amount of User Gear", "12")
 # Title,Description,Hint,Stars,Points
 
 CSV.read("#{base}/db/seeddata/badges.csv").select{|x| x[0] != "Title"}.each do |row|
-    Badge.default(row[0].downcase, row[0], row[1], row[2], row[3].to_i, row[4].to_i, "#{base}/db/seeddata/assets/#{row[5]}"))
+    Badge.default(row[0].downcase, row[0], row[1], row[2], row[3].to_i, row[4].to_i, "#{base}/db/seeddata/assets/#{row[5]}")
 end
 
 #
