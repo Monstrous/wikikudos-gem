@@ -78,7 +78,7 @@ end
 
 
 CSV.read("#{base}/seeddata/gear.csv").select{|x| x[0].downcase != "name"}.each do |row|
-  Gear.default(:name => row[0], :desc => row[1], :long => row[2], :square => row[3], :icon => row[4], :cost => row[5])
+  Gear.default(:name => row[0], :desc => row[1], :long =>"#{base}/seeddata/assets/#{row[2]}" , :square => "#{base}/seeddata/assets/#{row[3]}", :icon => "#{base}/seeddata/assets/#{row[4]}", :cost => "#{base}/seeddata/assets/#{row[5]}")
 end
 
 #
