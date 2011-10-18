@@ -99,20 +99,20 @@ end
 Notification.default(
   :name => "justinlive",
   :message => "Hey BieberFans, come see me live!",
-  :preview => "Ticket_Master_Preview.jpg",
-  :flyer => "Ticket_Master.jpg"
+  :preview => "#{base}/seeddata/assets/"+ "Ticket_Master_Preview.jpg",
+  :flyer => "#{base}/seeddata/assets/"+ "Ticket_Master.jpg"
   )
   
 Notification.default(
   :name => "quiz",
   :message => "How much do you know about Justin?",
-  :preview => "Quiz_Preview.jpg",
-  :flyer => "Quiz_Flyer.jpg"
+  :preview => "#{base}/seeddata/assets/"+ "Quiz_Preview.jpg",
+  :flyer => "#{base}/seeddata/assets/"+ "Quiz_Flyer.jpg"
   )
   
 Notification.default(
     :name => "hottopic",
     :message => "Special Offer for BieberVerse Players!",
-    :preview => "Hot_Topic_Preview.jpg",
-    :flyer => "Hot_Topic.jpg"
+    :preview => "#{base}/seeddata/assets/"+ "Hot_Topic_Preview.jpg",
+    :flyer => "#{base}/seeddata/assets/"+ "Hot_Topic.jpg"
     )
