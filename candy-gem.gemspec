@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{candy-gem}
-  s.version = "0.2.2"
+  s.version = "0.2.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Corprew Reed}]
@@ -150,7 +150,7 @@ Gem::Specification.new do |s|
     "test/test_candy-gem.rb"
   ]
   s.homepage = %q{http://github.com/Monstrous/candy-gem}
-  s.licenses = [%q{Copyright (c) 2011 Monstrous}]
+  s.licenses = [%q{Copyright (c) 2011 Monstrous Company}]
   s.require_paths = [%q{lib}]
   s.rubygems_version = %q{1.8.6}
   s.summary = %q{Artist Gem for Candy}
