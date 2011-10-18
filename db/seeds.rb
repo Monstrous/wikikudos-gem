@@ -2,7 +2,7 @@ require 'csv'
 
 base = File.dirname(__FILE__)
 puts "bees:" 
-puts 
+puts base
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
 #
@@ -43,7 +43,7 @@ Setting.default('inventory_max_gear', "Max Amount of User Gear", "12")
 # def self.default(stub, name, desc, hint, stars, points, asset=nil)
 # Title,Description,Hint,Stars,Points
 
-CSV.read(#{base}/db/seeddata/badges.csv").select{|x| x[0] != "Title"}.each do |row|
+CSV.read("#{base}/db/seeddata/badges.csv").select{|x| x[0] != "Title"}.each do |row|
     Badge.default(row[0].downcase, row[0], row[1], row[2], row[3].to_i, row[4].to_i, "#{base}/db/seeddata/assets/#{row[5]}"))
 end
 
