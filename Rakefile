@@ -16,7 +16,7 @@ Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "candy-gem"
   gem.homepage = "http://github.com/Monstrous/candy-gem"
-  gem.license = "Copyright (c) 2011 Monstrous"
+  gem.license = "Copyright (c) 2011 Monstrous Company"
   gem.summary = %Q{Artist Gem for Candy}
   gem.description = %Q{Artist Gem for Candy}
   gem.email = "github@corprew.org"
