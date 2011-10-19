@@ -88,7 +88,7 @@ end
 
 
 CSV.read("#{base}/seeddata/purchase.csv").select{|x| x[0].downcase != "name"}.each do |row|
-  Purchase.default(row[0].downcase,row[0],row[1],row[2],row[3],row[4],row[5])
+  Purchase.default(row[0].downcase,row[0],row[1],"#{base}/seeddata/assets/#{row[2]}","#{base}/seeddata/assets/#{row[3]}",row[4],row[5])
 end
 
 #
