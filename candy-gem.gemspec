@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{candy-gem}
-  s.version = "0.2.4"
+  s.name = "candy-gem"
+  s.version = "0.2.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = [%q{Corprew Reed}]
-  s.date = %q{2011-10-18}
-  s.description = %q{Artist Gem for Candy}
-  s.email = %q{github@corprew.org}
+  s.authors = ["Corprew Reed"]
+  s.date = "2011-10-19"
+  s.description = "Artist Gem for Candy"
+  s.email = "github@corprew.org"
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README",
@@ -132,6 +132,11 @@ Gem::Specification.new do |s|
     "db/seeddata/assets/Video3-LonelyGirlLive-Preview.png",
     "db/seeddata/assets/Video3-LonelyGirlLive.m4v",
     "db/seeddata/assets/advert_user_icon.jpg",
+    "db/seeddata/assets/starsPack1.png",
+    "db/seeddata/assets/starsPack2.png",
+    "db/seeddata/assets/starsPack3.png",
+    "db/seeddata/assets/starsPack4.png",
+    "db/seeddata/assets/starsPack5.png",
     "db/seeddata/assets/system_user_icon.jpg",
     "db/seeddata/badges.csv",
     "db/seeddata/dedications.csv",
@@ -149,11 +154,11 @@ Gem::Specification.new do |s|
     "test/helper.rb",
     "test/test_candy-gem.rb"
   ]
-  s.homepage = %q{http://github.com/Monstrous/candy-gem}
-  s.licenses = [%q{Copyright (c) 2011 Monstrous Company}]
-  s.require_paths = [%q{lib}]
-  s.rubygems_version = %q{1.8.6}
-  s.summary = %q{Artist Gem for Candy}
+  s.homepage = "http://github.com/Monstrous/candy-gem"
+  s.licenses = ["Copyright (c) 2011 Monstrous Company"]
+  s.require_paths = ["lib"]
+  s.rubygems_version = "1.8.10"
+  s.summary = "Artist Gem for Candy"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
