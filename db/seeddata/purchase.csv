@@ -1,4 +1,4 @@
-name,description,productUrl,imageUrl,fb_credits,stars
-10 Stars,"A pack of 10 stars!","/images/star-icon.png","/images/star-icon.png",10,10
-30 Stars,"A super pack of 30 stars!","/images/star-icon.png","/images/star-icon.png",25,30
-100 Stars,"Best Value! A MEGA pack of 100 stars!","/images/star-icon.png","/images/star-icon.png",75,100
+name,description,product,image,fb_credits,stars
+10 Stars,"A pack of 10 stars!","starsPack1.png","starsPack1.png",10,10
+30 Stars,"A super pack of 30 stars!","starsPack2.png","starsPack2.png",25,30
+100 Stars,"Best Value! A MEGA pack of 100 stars!","starsPack3.png","starsPack3.png",75,100
