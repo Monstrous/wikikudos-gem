@@ -1,23 +1,25 @@
-title,description,type,category,caption,image,audio,video,preview,thumbnail,level,star cost,aff_text,aff_link
-That Voodoo That You Do,"thinking of you, voodoo doll",G,0,y,M001_full.jpg,,,M001_prev.jpg,M001_icon.jpg,1,15
-Hard Candy,woman licking a candypop,G,"X, C",n,M002_full.jpg,,,M002_prev.jpg,M002_icon.jpg,1,15
-Ginger Dead Men,gingerbread skeletons,E,0,n,M003_full.jpg,,,M003_prev.jpg,M003_icon.jpg,1,15
-Lady Fingers,lady finger cookies,E,0,n,M004_full.jpg,,,M004_prev.jpg,M004_icon.jpg,1,15
-Net Spider,spider on keyboard,G," F, S",y,M005_full.jpg,,,M005_prev.jpg,M005_icon.jpg,1,15
-Creepy Doctor,illustrated doctor putting on rubber gloves,G,F,y,M006_full.jpg,,,M006_prev.jpg,M006_icon.jpg,1,15
-Run While You Still Can,figure running out of black and red creepy shapes,G,D,y,M007_full.jpg,,,M007_prev.jpg,M007_icon.jpg,1,15
-Consequences,orange you sorry you pissed off that witch,G,"F, D",y,M008_full.jpg,,,M008_prev.jpg,M008_icon.jpg,1,15
-Death by Chocolate,brownie graveyard,E,0,n,M009_full.jpg,,,M009_prev.jpg,M009_icon.jpg,1,15
-Gummy Snake,green and black striped snake,E,0,n,M010_full.jpg,,,M010_prev.jpg,M010_icon.jpg,1,15
-Swirly Lolly,"shiny, yellow background",E,0,n,M011_full.jpg,,,M011_prev.jpg,M011_icon.jpg,1,15
-Unimpressed Gargoyle (is Unimpressed),statue and city view,G,"F, P",y,M012_full.jpg,,,M012_prev.jpg,M012_icon.jpg,1,15
-Zombie Teddy,huuuuugs,G,C,y,M013_full.jpg,,,M013_prev.jpg,M013_icon.jpg,1,15
-Krispy Treat,starburst background,E,,n,M014_full.jpg,,,M014_prev.jpg,M014_icon.jpg,1,15
-8 Eyed Green Monster,cartoon,G,C,n,M015_full.jpg,,,M015_prev.jpg,M015_icon.jpg,1,15
-Pumpkin Surprise,"skeleton,pumpking head",G,"F, C",n,M016_full.jpg,,,M016_prev.jpg,M016_icon.jpg,1,15
-Raven Moon,bird in tree at night,G,"D, P",n,M017_full.jpg,,,M017_prev.jpg,M017_icon.jpg,1,15
-Trick or Treater Princess,cartoon girl on pink,G,C,n,M018_full.jpg,,,M018_prev.jpg,M018_icon.jpg,1,15
-Killer Bunny Monster,cartoon fanged rabbit,G,"C, S",,M019_full.jpg,,,M019_prev.jpg,M019_icon.jpg,1,15
-Closet Clown,scary clown entering,G,"S,D",n,M020_full.jpg,,,M020_prev.jpg,M020_icon.jpg,1,15
-Gargoyle Stare,shocked gargoyle statue,G,"F,C",n,M021_full.jpg,,,M021_prev.jpg,M021_icon.jpg,1,15
-Grabby Ghostie,cartoon ghost,G,C,n,M022_full.jpg,,,M022_prev.jpg,M022_icon.jpg,1,15
+title,description,image,audio,video,preview,thumbnail,level,star cost,aff_text,aff_link,type,category,caption
+That Voodoo That You Do,"thinking of you, voodoo doll",M001_full.jpg,,,M001_prev.jpg,M001_icon.jpg,1,10,,,G,0,y
+Hard Candy,woman licking a candypop,M002_full.jpg,,,M002_prev.jpg,M002_icon.jpg,1,5,,,G,"X, C",n
+Ginger Dead Men,gingerbread skeletons,M003_full.jpg,,,M003_prev.jpg,M003_icon.jpg,1,5,,,E,0,n
+Lady Fingers,lady finger cookies,M004_full.jpg,,,M004_prev.jpg,M004_icon.jpg,1,5,,,E,0,n
+Net Spider,spider on keyboard,M005_full.jpg,,,M005_prev.jpg,M005_icon.jpg,1,15,,,G," F, S",y
+Creepy Doctor,cartoon doctor putting on rubber gloves,M006_full.jpg,,,M006_prev.jpg,M006_icon.jpg,1,10,,,G,F,y
+Run While You Still Can,figure running out of black and red creepy shapes,M007_full.jpg,,,M007_prev.jpg,M007_icon.jpg,1,10,,,G,D,y
+Consequences,orange you sorry you pissed off that witch,M008_full.jpg,,,M008_prev.jpg,M008_icon.jpg,1,15,,,G,"F, D",y
+Death by Chocolate,brownie graveyard,M009_full.jpg,,,M009_prev.jpg,M009_icon.jpg,1,10,,,E,0,n
+Gummy Snake,green and black striped snake,M010_full.jpg,,,M010_prev.jpg,M010_icon.jpg,1,5,,,E,0,n
+Swirly Lolly,"shiny, yellow background",M011_full.jpg,,,M011_prev.jpg,M011_icon.jpg,1,10,,,E,0,n
+Unimpressed Gargoyle (is Unimpressed),statue and city view,M012_full.jpg,,,M012_prev.jpg,M012_icon.jpg,1,10,,,G,"F, P",y
+Zombie Teddy,"cartoon, huuuuugs",M013_full.jpg,,,M013_prev.jpg,M013_icon.jpg,1,10,,,G,C,y
+Krispy Treat,starburst background,M014_full.jpg,,,M014_prev.jpg,M014_icon.jpg,1,10,,,E,0,n
+8 Eyed Green Monster,cartoon,M015_full.jpg,,,M015_prev.jpg,M015_icon.jpg,1,10,,,G,C,n
+Pumpkin Surprise,"skeleton hands,pumpkin head",M016_full.jpg,,,M016_prev.jpg,M016_icon.jpg,1,10,,,G,"F, C",n
+Raven Moon,bird in tree at night,M017_full.jpg,,,M017_prev.jpg,M017_icon.jpg,1,15,,,G,"D, P",n
+Trick or Treater Princess,cartoon girl on pink,M018_full.jpg,,,M018_prev.jpg,M018_icon.jpg,1,10,,,G,C,n
+Killer Bunny Monster,cartoon fanged rabbit,M019_full.jpg,,,M019_prev.jpg,M019_icon.jpg,1,15,,,G,"C, S",n
+Closet Clown,scary clown entering,M020_full.jpg,,,M020_prev.jpg,M020_icon.jpg,1,15,,,G,"S,D",n
+Gargoyle Stare,shocked gargoyle statue,M021_full.jpg,,,M021_prev.jpg,M021_icon.jpg,1,10,,,G,"F,C",n
+Grabby Ghostie,cartoon ghost,M022_full.jpg,,,M022_prev.jpg,M022_icon.jpg,1,10,,,G,C,n
+Spiderweb Cookie,white sugar cookie decorated with spider and web,M023_full.jpg,,,M023_prev.jpg,M023_icon.jpg,1,10,,,E,0,n
+Spider Kaleidoscope,illustrated tribal spider design,M024_full.jpg,,,M024_prev.jpg,M024_icon.jpg,1,20,,,G,"P, S",n
