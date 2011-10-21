@@ -2,6 +2,19 @@
 
 Description goes here.
 
+== Some useful rake tasks
+
+* rake version:bump:major  # Bump the major version by 1
+* rake version:bump:minor  # Bump the a minor version by 1
+* rake version:bump:patch  # Bump the patch version by 1
+* rake release # write the gem to github.  (push all committed changes, rebuild version tags as needed
+
+== Using an artist gem
+
+* bundle update gemname #  pulls down the latest version of the artist gem, this should upgrade your gemfile.lock, which you will need to commit
+
+
+
 == Contributing to candy-gem
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
