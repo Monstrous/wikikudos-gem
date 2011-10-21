@@ -51,12 +51,24 @@ end
 #  dedication
 #
 #
-# row => title,description,image,audio,video,preview,thumbnail,level,star cost,aff_text,aff_link
+# row => title,description,type,category,captioned?,image,audio,video,preview,thumbnail,level,star cost,aff_text,aff_link
 #def self.default(stub, title,description,preview,thumbnail, level,star_cost, image,audio,video,aff_text,aff_link)
 
-
 CSV.read("#{base}/seeddata/dedications.csv").select{|x| x[0].downcase != "title"}.each do |row|
-  Dedication.default(row[0].downcase,row[0],row[1],"#{base}/seeddata/assets/#{row[5]}","#{base}/seeddata/assets/#{row[6]}",row[7],row[8], "#{base}/seeddata/assets/#{row[2]}","#{base}/seeddata/assets/#{row[3]}","#{base}/seeddata/assets/#{row[4]}",row[9],row[10])
+  Dedication.default(row[0].downcase,row[0],row[1],"#{base}/seeddata/assets/#{row[8]}","#{base}/seeddata/assets/#{row[9]}",row[10],row[11], "#{base}/seeddata/assets/#{row[5]}","#{base}/seeddata/assets/#{row[6]}","#{base}/seeddata/assets/#{row[7]}",row[12],row[13])
+end
+
+# old
+#CSV.read("#{base}/seeddata/dedications.csv").select{|x| x[0].downcase != "title"}.each do |row|
+#  Dedication.default(row[0].downcase,row[0],row[1],"#{base}/seeddata/assets/#{row[5]}","#{base}/seeddata/assets/#{row[6]}",row[7],row[8], "#{base}/seeddata/assets/#{row[2]}","#{base}/seeddata/assets/#{row[3]}","#{base}/seeddata/assets/#{row[4]}",row[9],row[10])
+#end
+
+#
+# Purchase 
+#
+#  name,description,product_url,image_url,stars,fb_credits
+CSV.read("#{base}/seeddata/purchase.csv").select{|x| x[0].downcase != "name"}.each do |row|
+  Purchase.default(row[0].downcase,row[0],row[1],"#{base}/seeddata/assets/#{row[2]}","#{base}/seeddata/assets/#{row[3]}",row[4],row[5])
 end
 
 
@@ -65,31 +77,18 @@ end
 #
 # Title,Level,Cost,Game,Preview Video,Preview Image,Icon
 
-
 #CSV.read("#{base}/seeddata/songs.csv").select{|x| x[0].downcase != "title"}.each do |row|
 #  Song.default(:name => row[0], :artist => row[1], :level_num => row[2], :star_cost => row[3], :unity => "#{base}/seeddata/assets/#{row[4]}", :pre_video=> "#{base}/seeddata/assets/#{row[5]}", :pre_image => "#{base}/seeddata/assets/#{row[6]}", :icon => "#{base}/seeddata/assets/#{row[7]}")
 #end
-
 
 #
 # GEAR 
 #
 #  name,description,long,square,icon,star_cost
 
-
 #CSV.read("#{base}/seeddata/gear.csv").select{|x| x[0].downcase != "name"}.each do |row|
 #  Gear.default(:name => row[0], :desc => row[1], :long =>"#{base}/seeddata/assets/#{row[2]}" , :square => "#{base}/seeddata/assets/#{row[3]}", :icon => "#{base}/seeddata/assets/#{row[4]}", :cost => "#{base}/seeddata/assets/#{row[5]}")
 #end
-
-#
-# Purchase 
-#
-#  name,description,product_url,image_url,stars,fb_credits
-
-
-CSV.read("#{base}/seeddata/purchase.csv").select{|x| x[0].downcase != "name"}.each do |row|
-  Purchase.default(row[0].downcase,row[0],row[1],"#{base}/seeddata/assets/#{row[2]}","#{base}/seeddata/assets/#{row[3]}",row[4],row[5])
-end
 
 #
 #  ActivitySeeds
