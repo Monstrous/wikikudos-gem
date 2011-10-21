@@ -36,7 +36,7 @@ puts base
 #
 Setting.default('user_initial_points', "Initial User Points", "0")
 Setting.default('user_initial_stars', "Initial User Stars", "50")
-Setting.default('inventory_max_gear', "Max Amount of User Gear", "12")
+#Setting.default('inventory_max_gear', "Max Amount of User Gear", "12")
 #
 #  badges
 #
@@ -66,9 +66,9 @@ end
 # Title,Level,Cost,Game,Preview Video,Preview Image,Icon
 
 
-CSV.read("#{base}/seeddata/songs.csv").select{|x| x[0].downcase != "title"}.each do |row|
-  Song.default(:name => row[0], :artist => row[1], :level_num => row[2], :star_cost => row[3], :unity => "#{base}/seeddata/assets/#{row[4]}", :pre_video=> "#{base}/seeddata/assets/#{row[5]}", :pre_image => "#{base}/seeddata/assets/#{row[6]}", :icon => "#{base}/seeddata/assets/#{row[7]}")
-end
+#CSV.read("#{base}/seeddata/songs.csv").select{|x| x[0].downcase != "title"}.each do |row|
+#  Song.default(:name => row[0], :artist => row[1], :level_num => row[2], :star_cost => row[3], :unity => "#{base}/seeddata/assets/#{row[4]}", :pre_video=> "#{base}/seeddata/assets/#{row[5]}", :pre_image => "#{base}/seeddata/assets/#{row[6]}", :icon => "#{base}/seeddata/assets/#{row[7]}")
+#end
 
 
 #
@@ -77,9 +77,9 @@ end
 #  name,description,long,square,icon,star_cost
 
 
-CSV.read("#{base}/seeddata/gear.csv").select{|x| x[0].downcase != "name"}.each do |row|
-  Gear.default(:name => row[0], :desc => row[1], :long =>"#{base}/seeddata/assets/#{row[2]}" , :square => "#{base}/seeddata/assets/#{row[3]}", :icon => "#{base}/seeddata/assets/#{row[4]}", :cost => "#{base}/seeddata/assets/#{row[5]}")
-end
+#CSV.read("#{base}/seeddata/gear.csv").select{|x| x[0].downcase != "name"}.each do |row|
+#  Gear.default(:name => row[0], :desc => row[1], :long =>"#{base}/seeddata/assets/#{row[2]}" , :square => "#{base}/seeddata/assets/#{row[3]}", :icon => "#{base}/seeddata/assets/#{row[4]}", :cost => "#{base}/seeddata/assets/#{row[5]}")
+#end
 
 #
 # Purchase 
@@ -96,23 +96,9 @@ end
 #  
 #
 
-Notification.default(
-  :name => "justinlive",
-  :message => "Hey BieberFans, come see me live!",
-  :preview => "#{base}/seeddata/assets/"+ "Ticket_Master_Preview.jpg",
-  :flyer => "#{base}/seeddata/assets/"+ "Ticket_Master.jpg"
-  )
-  
-Notification.default(
-  :name => "quiz",
-  :message => "How much do you know about Justin?",
-  :preview => "#{base}/seeddata/assets/"+ "Quiz_Preview.jpg",
-  :flyer => "#{base}/seeddata/assets/"+ "Quiz_Flyer.jpg"
-  )
-  
-Notification.default(
-    :name => "hottopic",
-    :message => "Special Offer for BieberVerse Players!",
-    :preview => "#{base}/seeddata/assets/"+ "Hot_Topic_Preview.jpg",
-    :flyer => "#{base}/seeddata/assets/"+ "Hot_Topic.jpg"
-    )
+#Notification.default(
+#    :name => "hottopic",
+#    :message => "Special Offer for Monstergram Players!",
+#    :preview => "#{base}/seeddata/assets/"+ "Hot_Topic_Preview.jpg",
+#    :flyer => "#{base}/seeddata/assets/"+ "Hot_Topic.jpg"
+#    )
