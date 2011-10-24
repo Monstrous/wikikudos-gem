@@ -1,4 +1,4 @@
-title,description,type,category,caption,image,audio,video,preview,thumbnail,level,star cost,aff_text,aff_link
+title,description,track_type,category,caption,image,audio,video,preview,thumbnail,level,star cost,aff_text,aff_link
 That Voodoo That You Do,"thinking of you, voodoo doll",G,0,y,M001_full.jpg,0,0,M001_prev.jpg,M001_icon.jpg,1,10,0,0
 Hard Candy,woman licking a candypop,G,"X, C",n,M002_full.jpg,0,0,M002_prev.jpg,M002_icon.jpg,1,5,0,0
 Ginger Dead Men,gingerbread skeletons,E,0,n,M003_full.jpg,0,0,M003_prev.jpg,M003_icon.jpg,1,5,0,0
