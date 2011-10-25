@@ -43,6 +43,28 @@ class ArtistPolicy
       #   This handler not wired in yet.
       #
     end
+    
+    def self.started_a_session(profile)
+      badges = {4 => "Repeat Offender", 11 => "Monstrous Addiction"}
+      
+      badges.each do | k, v |
+        if self.login_for_number_days(profile, k)
+          b = profile.add_badge_by_name(v)
+          profile.acquired_badges << b unless b.nil?
+        end
+    end
+    
+    def self.login_for_number_days(profile,x)
+      recent_sessions = @profile.recent_sessions_as_date_time
+      today = date.today
+      (0...x).each do |offset|
+        day = today - offset
+        if recent_sessions.index {|sess_date_time| day === sess_date_time }.nil?
+          return false
+        end
+      end
+      true
+    end
   end
   
   class DedicationHook
