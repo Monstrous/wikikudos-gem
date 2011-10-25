@@ -52,6 +52,7 @@ class ArtistPolicy
           b = profile.add_badge_by_name(v)
           profile.acquired_badges << b unless b.nil?
         end
+      end
     end
     
     def self.login_for_number_days(profile,x)
