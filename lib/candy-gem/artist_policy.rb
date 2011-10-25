@@ -13,7 +13,7 @@ class ArtistPolicy
       
     end
     
-    def self.update_player_badge_progress(p,recipient_count)
+    def self.update_player_badge_progress(profile,recipient_count)
       badges = {1 => "Welcome to the Horde", 27 => "Accomplished Monsterizer", 103 => "Deliverator"}
 
       badges.each do | k, v |
