@@ -1,14 +1,30 @@
-Title,Description,Hint,Stars,Points,Asset
-Newbie,First Dedication,There is a first time for everything... Try sending a Dedication to a friend!,10,100,1stDedication.jpg
-Expressive,25 Dedications Sent,"Send a little, get a little.",25,100,25Dedications.jpg
-Posse,20 friends are players,How many friends are players? Tens? Hundreds?,20,100,20Friends.jpg
-Hookup,Dedications sent to 5 new users,You're putting your own band together. Send invitations to a band of friends!,20,100,5Invites.jpg
-Concert Goer,You checked into a Bieber show,Check into from a Justin Bieber show venue during a concert!,50,500,ConcertGoer.jpg
-Hot Topic,You checked into Hot Topic to pick up some Bieber merch,Check into Hot Topic to pick up some cool Justin Bieber merchandise!,50,200,Checkpoint.jpg
-Collector,You bought a song or video from iTMS,Buy a Justin Bieber song or video from iTMS via the link in a Dedication!,50,250,Collector.jpg
-Flag Waver,You bought merch from a Dedication,Buy merch from a received Dedication or Special Offer!,50,250,FlagWaver.jpg
-Decked Out,"You got decked out in your Shoes, Glasses, and Pants","Deck yourself out in BieberVerse Gear: Shoes, Glasses, and Pants.",50,250,Neophyte2.jpg
-Messenger,100 Dedications Sent,You're really spreading the love now!,25,200,100Dedications.jpg
-Gaggle,50 friends are players,Get 50 of your friends on the bus!,30,150,50Friends.jpg
-Swarm,100 friends are players,Rally the troops 100 strong!,40,250,100Friends.jpg
-Invite,Dedication sent to new user,Recruit a Newbie by sending a new player an Invitation...,5,50,1stInvite.jpg
+title,description,hint,stars,points,asset,lambda,win conditions,season,active
+Welcome to the Horde,You sent your first Monstergram!  Soon you'll earn access to even more.,It takes only one.,10,10,B001_full.png,0,sent 1 monstergram,generic,TRUE
+Accomplished Monsterizer,You sent 27 Monstergrams to your friends. We reward you for such ambition!,Put yourself out there.,10,10,B002_full.png,0,sent 27 monstergrams,generic,TRUE
+Deliverator,"You sent 103 Monstergrams! You are a true Monster, and we mean that in a good way!",Pur yourself waaaaay out there.,10,10,B003_full.png,0,sent 103 monstergrams,generic,TRUE
+Efficiency Award,You sent Monstergrams to six friends at once! Think of all the time you saved.,Kill a few birds with one stone.,10,10,badge_placeholder.png,0,sent 6 monstergrams at once,generic,TRUE
+Lucky 13,You got monstergrams from thirteen different friends. You're a lucky critter!,Get treats from your friends.,10,10,badge_placeholder.png,0,received monstergrams from 13 people,generic,TRUE
+Schmoozinator,"You've sent Monstergrams to seven new players. Thanks for expanding the numbers of the collective, citizen.",Lure some fresh blood.,10,10,badge_placeholder.png,0,sent monstergrams to 7 different people who don't have accounts,halloween,TRUE
+Pumpkin Pie,"You got four Monstergrams with pumpkins. Such versatile gourds, aren't they?",Get your friends to send you gourds.,10,10,badge_placeholder.png,0,"received four of: M16, M18, M28, M37",halloween,TRUE
+Arachnid Wrangler,You sent three spider related Monstergrams. Who doesn't love a good spider?,Won't someone think of the spiders?,10,10,B008_full.png,0,"sent three of M5, M23, M24",halloween,TRUE
+Tough Cookies,"You sent four different cookies. Cookies are a symbol of universal love, you know.",Cakes and cookies are your special friends.,10,10,badge_placeholder.png,0,"sent four of: M3, M4, M9, M14, M23",halloween,TRUE
+Trick or Treater,You have received three pieces of candy. Probably because you're so sweet.,Get sweets from your friends.,10,10,badge_placeholder.png,0,"received three of M2, M11, and M32.",halloween,TRUE
+Zombie Master,You sent three zombies to do your bidding. Zombies do need direction and all.,Unleash the shuffling hordes.,10,10,B011_full.png,0,"sent three of M13, M35, and M45.",halloween,TRUE
+Repeat Offender,"You logged in four days in a row. Yes, we noticed.",Keep coming back.,10,10,badge_placeholder.png,0,logged in 4 days in a row,generic,TRUE
+Monstrous Addiction,"You logged in eleven days in a row. We know, it's hard to stay away!","Day in, day out.",10,10,badge_placeholder.png,0,logged in 11 days in a row,generic,TRUE
+Halloween Haunter,Happy Halloween! Now go forth and dish out some spooky fun.,Make sure to be on for the big day!,10,10,badge_placeholder.png,0,logged in on Halloween,halloween,TRUE
+Cute Attack,cuteness,0,0,0,0,0,0,0,FALSE
+witches,witches,0,0,0,0,0,0,0,FALSE
+devils,devils/demons,0,0,0,0,0,0,0,FALSE
+vampires,vampires,0,0,0,0,0,M30,0,FALSE
+Affinity for Blades,knives,Let's keep things sharp and stabby.,0,0,0,0,0,0,FALSE
+Wardrobe Consultant,costume parts,The people of the internet need costume help.,0,0,0,0,0,0,FALSE
+Ghost Whisperer,You aint 'fraid of no ghosts! You've sent 3 ghostly dedications. The more the scarier!,Express your support for the disembodied,0,0,0,0,0,0,FALSE
+Dark Side,creepy stuff,Dare to share the darkness.,0,0,0,0,0,0,FALSE
+skeletons,skeletons,"My, what a beautiful skull you have! (what lovely bone structure you have?)",0,0,0,0,0,0,FALSE
+Clown Posse,clowns,0,0,0,0,0,"M31, M20",0,FALSE
+gummy,gummy love,0,0,0,0,0,0,0,FALSE
+Cat Herder,cats,0,0,0,0,0,"M25, M29",0,FALSE
+profound,profound,0,0,0,0,0,0,0,FALSE
+Sweet Tooth,giving candy,0,0,0,0,0,0,0,FALSE
+arachnophile,way more spiders,0,0,0,0,0,0,0,FALSE
