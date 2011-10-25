@@ -57,7 +57,7 @@ class ArtistPolicy
     
     def self.login_for_number_days(profile,x)
       recent_sessions = profile.recent_sessions_as_date_time
-      today = date.today
+      today = Date.today
       (0...x).each do |offset|
         day = today - offset
         if recent_sessions.index {|sess_date_time| day === sess_date_time }.nil?
