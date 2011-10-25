@@ -42,10 +42,10 @@ Setting.default('user_initial_stars', "Initial User Stars", "50")
 #  badges
 #
 # def self.default(stub, name, desc, hint, stars, points, asset=nil, active)
-# Title,Description,Hint,Stars,Points, asset, active
+# Title,Description,Hint,Stars,Points, asset, lambda, win conditions, season, active
 
 CSV.read("#{base}/seeddata/badges.csv").select{|x| x[0] != "Title"}.each do |row|
-  if row[6] == TRUE
+  if row[9] == TRUE
     Badge.default(row[0].downcase, row[0], row[1], row[2], row[3].to_i, row[4].to_i, "#{base}/seeddata/assets/#{row[5]}")
 end
 
