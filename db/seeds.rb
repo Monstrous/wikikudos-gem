@@ -15,19 +15,20 @@ puts base
 #   LEVELS
 #
 
-(1..3).each { |n| Level.default(n, "Listener")}
-(4..6).each { |n| Level.default(n, "Follower")}
-(7..9).each { |n| Level.default(n, "Enthusiast")}
-(10..12).each { |n| Level.default(n, "Supporter")}
-(13..15).each { |n| Level.default(n, "Fan")}
-(16..18).each { |n| Level.default(n, "Freak")}
+(1..3).each { |n| Level.default(n, "Newbie")}
+(4..6).each { |n| Level.default(n, "Minion")}
+(7..9).each { |n| Level.default(n, "Follower")}
+(10..12).each { |n| Level.default(n, "Recruit")}
+(13..15).each { |n| Level.default(n, "Acolyte")}
+(16..18).each { |n| Level.default(n, "Cultist")}
 (19..21).each { |n| Level.default(n, "Disciple")}
 (22..24).each { |n| Level.default(n, "Addict")}
 (25..28).each { |n| Level.default(n, "Junkie")}
-(29..31).each { |n| Level.default(n, "Superfan")}
-(32..34).each { |n| Level.default(n, "Groupie")}
-(35..37).each { |n| Level.default(n, "Stalker")}
-(36..50).each { |n| Level.default(n, "BieberBot")}
+(29..31).each { |n| Level.default(n, "Stalker")}
+(32..34).each { |n| Level.default(n, "Beholder")}
+(35..37).each { |n| Level.default(n, "Prophet")}
+(38..40).each { |n| Level.default(n, "Apostle")}
+(41..50).each { |n| Level.default(n, "MonsterBot")}
 
 (1..50).each { |n| Level.find_by_level_num(n).required_points! }
 
@@ -40,27 +41,22 @@ Setting.default('user_initial_stars', "Initial User Stars", "50")
 #
 #  badges
 #
-# def self.default(stub, name, desc, hint, stars, points, asset=nil)
-# Title,Description,Hint,Stars,Points
+# def self.default(stub, name, desc, hint, stars, points, asset=nil, active)
+# Title,Description,Hint,Stars,Points, asset, active
 
 CSV.read("#{base}/seeddata/badges.csv").select{|x| x[0] != "Title"}.each do |row|
-    Badge.default(row[0].downcase, row[0], row[1], row[2], row[3].to_i, row[4].to_i, "#{base}/seeddata/assets/#{row[5]}")
+    Badge.default(row[0].downcase, row[0], row[1], row[2], row[3].to_i, row[4].to_i, "#{base}/seeddata/assets/#{row[5]}", row[6])
 end
 
 #
 #  dedication
 #
 #
-# row => title,description,track_type,category,captioned?,image,audio,video,preview,thumbnail,level,star cost,aff_text,aff_link
-#def self.default(stub, title,description,track_type,category,captioned?,preview,thumbnail, level,star_cost, image,audio,video,aff_text,aff_link)
+# row => title,description,track_type,category,captioned?,image,audio,video,preview,thumbnail,level,star cost,aff_text,aff_link,active
+#def self.default(stub, title,description,track_type,category,captioned?,preview,thumbnail, level,star_cost, image,audio,video,aff_text,aff_link,active)
 CSV.read("#{base}/seeddata/dedications.csv").select{|x| x[0].downcase != "title"}.each do |row|
-  Dedication.default(row[0].downcase,row[0],row[1],row[2],row[3],row[4],"#{base}/seeddata/assets/#{row[8]}","#{base}/seeddata/assets/#{row[9]}",row[10],row[11],"#{base}/seeddata/assets/#{row[5]}","#{base}/seeddata/assets/#{row[6]}","#{base}/seeddata/assets/#{row[7]}",row[12],row[13])
+  Dedication.default(row[0].downcase,row[0],row[1],row[2],row[3],row[4],"#{base}/seeddata/assets/#{row[8]}","#{base}/seeddata/assets/#{row[9]}",row[10],row[11],"#{base}/seeddata/assets/#{row[5]}","#{base}/seeddata/assets/#{row[6]}","#{base}/seeddata/assets/#{row[7]}",row[12],row[13],row[14])
 end
-
-# old
-#CSV.read("#{base}/seeddata/dedications.csv").select{|x| x[0].downcase != "title"}.each do |row|
-#  Dedication.default(row[0].downcase,row[0],row[1],"#{base}/seeddata/assets/#{row[5]}","#{base}/seeddata/assets/#{row[6]}",row[7],row[8], "#{base}/seeddata/assets/#{row[2]}","#{base}/seeddata/assets/#{row[3]}","#{base}/seeddata/assets/#{row[4]}",row[9],row[10])
-#end
 
 #
 # Purchase 
