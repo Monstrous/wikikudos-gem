@@ -47,6 +47,7 @@ Setting.default('user_initial_stars', "Initial User Stars", "50")
 CSV.read("#{base}/seeddata/badges.csv").select{|x| x[0] != "Title"}.each do |row|
   if row[9] == TRUE
     Badge.default(row[0].downcase, row[0], row[1], row[2], row[3].to_i, row[4].to_i, "#{base}/seeddata/assets/#{row[5]}")
+  end
 end
 
 #
@@ -60,6 +61,7 @@ CSV.read("#{base}/seeddata/dedications.csv").select{|x| x[0].downcase != "title"
     Dedication.default(row[0].downcase,row[0],row[1],row[2],row[3],row[4],"#{base}/seeddata/assets/#{row[8]}",
                        "#{base}/seeddata/assets/#{row[9]}",row[10],row[11],"#{base}/seeddata/assets/#{row[5]}",
                        "#{base}/seeddata/assets/#{row[6]}","#{base}/seeddata/assets/#{row[7]}",row[12],row[13])
+  end
 end
 
 #
