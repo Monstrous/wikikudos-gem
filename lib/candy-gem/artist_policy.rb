@@ -3,6 +3,7 @@ class ArtistPolicy
     def self.added_a_new_user(profile,new_user,new_val)
       
       badges = {7=> "Schmoozinator", 13 => "Lucky 13"}
+      count = 1 # the number of new users added.
 
       badges.each do | k, v |
         if new_val >= k && new_val - count < k
