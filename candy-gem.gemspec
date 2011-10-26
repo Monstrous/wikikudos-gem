@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{candy-gem}
-  s.version = "0.3.9"
+  s.version = "0.3.11"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Corprew Reed"]
@@ -167,6 +167,12 @@ Gem::Specification.new do |s|
     "db/seeddata/assets/M050_full.jpg",
     "db/seeddata/assets/M050_icon.jpg",
     "db/seeddata/assets/M050_prev.jpg",
+    "db/seeddata/assets/M051_full.jpg",
+    "db/seeddata/assets/M051_icon.jpg",
+    "db/seeddata/assets/M051_prev.jpg",
+    "db/seeddata/assets/M052_full.jpg",
+    "db/seeddata/assets/M052_icon.jpg",
+    "db/seeddata/assets/M052_prev.jpg",
     "db/seeddata/assets/badge_placeholder.png",
     "db/seeddata/assets/starsPack1.png",
     "db/seeddata/assets/starsPack2.png",
