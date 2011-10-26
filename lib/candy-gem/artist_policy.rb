@@ -86,7 +86,7 @@ class ArtistPolicy
       end
     end
     
-    def self.send_by_name(profile,name,count, dedication_names, badge_name)
+    def self.sent_by_name(profile,name,count, dedication_names, badge_name)
       return false unless dedication_names.include? name
       
       dedication_ids = Rails.cache.fetch(dedication_names.join.tr('^a-zA-Z','')) do 
