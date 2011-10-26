@@ -14,7 +14,8 @@ class ArtistPolicy
       
     end
     
-    def self.update_player_badge_progress(profile,recipient_count)
+    def self.update_player_badge_progress(profile,recipient_count, new_val)
+      logger.debug "[ArtistPolicy::Badge.update_player_badge_progress] recipient #{recipient_count}"
       badges = {1 => "Welcome to the Horde", 27 => "Accomplished Monsterizer", 103 => "Deliverator"}
 
       badges.each do | k, v |
@@ -42,6 +43,29 @@ class ArtistPolicy
       #
       #   This handler not wired in yet.
       #
+    end
+    
+    def self.started_a_session(profile)
+      badges = {4 => "Repeat Offender", 11 => "Monstrous Addiction"}
+      
+      badges.each do | k, v |
+        if self.login_for_number_days(profile, k)
+          b = profile.add_badge_by_name(v)
+          profile.acquired_badges << b unless b.nil?
+        end
+      end
+    end
+    
+    def self.login_for_number_days(profile,x)
+      recent_sessions = profile.recent_sessions_as_date_time
+      today = Date.today
+      (0...x).each do |offset|
+        day = today - offset
+        if recent_sessions.index {|sess_date_time| day === sess_date_time }.nil?
+          return false
+        end
+      end
+      true
     end
   end
   
