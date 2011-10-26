@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{candy-gem}
-  s.version = "0.3.11"
+  s.version = "0.3.12"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Corprew Reed"]
-  s.date = %q{2011-10-25}
+  s.date = %q{2011-10-26}
   s.description = %q{Artist Gem for Candy}
   s.email = %q{github@corprew.org}
   s.extra_rdoc_files = [
