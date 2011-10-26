@@ -39,9 +39,9 @@ class ArtistPolicy
 
       name = message.attachable.name
 
-      self.sent_by_name(3, ["Net Spider","Spiderweb Cookie","Spider Kaleidoscope"], "Arachnid Wrangler")
-      self.sent_by_name(4, ["Ginger Dead Men","Lady Fingers","Death by Chocolate","Crispy Treat","Spiderweb Cookie"], "Tough Cookies")
-      self.sent_by_name(3 , ["Zombie Teddy","Come a Little Closer","Fury"], "Zombie Master")
+      self.sent_by_name(profile,name,3, ["Net Spider","Spiderweb Cookie","Spider Kaleidoscope"], "Arachnid Wrangler")
+      self.sent_by_name(profile,name,4, ["Ginger Dead Men","Lady Fingers","Death by Chocolate","Crispy Treat","Spiderweb Cookie"], "Tough Cookies")
+      self.sent_by_name(profile,name,3, ["Zombie Teddy","Come a Little Closer","Fury"], "Zombie Master")
     end
   
     
@@ -62,8 +62,8 @@ class ArtistPolicy
 
       name = message.attachable.name
       
-      self.received_by_name(name, 4, ["Pumpkin Surprise","Princess Trick-Or-Treat","Infinite Pumpkin","Pumpkin Attack"], "Pumpkin Pie")
-      self.received_by_name(name, 3, ["Hard Candy","Gummy Snake","Candy of the Dead"], "Trick or Treater")      
+      self.received_by_name(profile,name, 4, ["Pumpkin Surprise","Princess Trick-Or-Treat","Infinite Pumpkin","Pumpkin Attack"], "Pumpkin Pie")
+      self.received_by_name(profile,name, 3, ["Hard Candy","Gummy Snake","Candy of the Dead"], "Trick or Treater")      
     end
     
     
@@ -76,11 +76,30 @@ class ArtistPolicy
       end
     end
     
-    def self.received_by_name(count, dedication_names, badge_name)
+    def self.received_by_name(profile,name,count, dedication_names, badge_name)
+      return false unless dedication_names.include? name
       
+      dedication_ids = Rails.cache.fetch(dedication_names.join.tr('^a-zA-Z','')) do 
+        Dedication.where(:name=>dedication_names).collect{|x|x.id}
+      end
+      dedication_count = Message.where(:recipient_id => profile.id).group(:attachable_id=>dedication_ids).count.values.collect{|x| a += x}.last
+      
+      if dedication_count > count
+        profile.badge_add_by_name(badge_name)
+      end
     end
     
-    def self.send_by_name(count, dedication_names, badge_name)
+    def self.send_by_name(profile,name,count, dedication_names, badge_name)
+      return false unless dedication_names.include? name
+      
+      dedication_ids = Rails.cache.fetch(dedication_names.join.tr('^a-zA-Z','')) do 
+        Dedication.where(:name=>dedication_names).collect{|x|x.id}
+      end
+      dedication_count = Message.where(:sender_id => profile.id).group(:attachable_id=>dedication_ids).count.values.collect{|x| a += x}.last
+      
+      if dedication_count > count
+        profile.badge_add_by_name(badge_name)
+      end
     end
     
     def self.started_a_session(profile)
