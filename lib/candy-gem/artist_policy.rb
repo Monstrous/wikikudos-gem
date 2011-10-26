@@ -2,7 +2,7 @@ class ArtistPolicy
   class BadgeHook
     def self.added_a_new_user(profile,new_user,new_val)
       
-      badges = {7=> "Schmoozinator", 13 => "Lucky 13"}
+      badges = {7=> "Schmoozinator"}
       count = 1 # the number of new users added.
 
       badges.each do | k, v |
@@ -33,17 +33,53 @@ class ArtistPolicy
       #
     end
     
-    def self.sent_a_message
-      #
-      #   This handler not wired in yet
-      #
+    def self.sent_a_message(profile,message,count)
+      return unless message.attachable.present?
+      return unless message.attachable_type == "Dedication"
+
+      name = message.attachable.name
+
+      self.sent_by_name(3, ["Net Spider","Spiderweb Cookie","Spider Kaleidoscope"], "Arachnid Wrangler")
+      self.sent_by_name(4, ["Ginger Dead Men","Lady Fingers","Death by Chocolate","Crispy Treat","Spiderweb Cookie"], "Tough Cookies")
+      self.sent_by_name(3 , ["Zombie Teddy","Come a Little Closer","Fury"], "Zombie Master")
+    end
+  
+    
+    def self.received_a_message(profile,message, count)
+      logger.debug "[ArtistPolicy::Badge.recieved_a_message] enter #{count}"
+
+      badges = {13 => "Lucky 13"}
+
+      badges.each do | k, v |
+        if new_val >= k && new_val - recipient_count < k
+          b = profile.add_badge_by_name(v)
+          profile.acquired_badges << b unless b.nil?
+        end
+      end
+      
+      return unless message.attachable.present?
+      return unless message.attachable_type == "Dedication"
+
+      name = message.attachable.name
+      
+      self.received_by_name(name, 4, ["Pumpkin Surprise","Princess Trick-Or-Treat","Infinite Pumpkin","Pumpkin Attack"], "Pumpkin Pie")
+      self.received_by_name(name, 3, ["Hard Candy","Gummy Snake","Candy of the Dead"], "Trick or Treater")      
     end
     
-    def self.received_a_message
-      #
-      #   This handler not wired in yet.
-      #
+    
+    def self.sent_a_message_to_number_of_users(profile, count)
+      if count == 7
+        profile.add_bage_by_name("Efficiency Award") 
+        #
+        #  profile already handles checking and caching.
+        #
+      end
     end
+    
+    def self.received_by_name(count, dedication_names, badge_name)
+    end
+    
+    def self.send_by_name(count, dedication_names, badge_name)
     
     def self.started_a_session(profile)
       badges = {4 => "Repeat Offender", 11 => "Monstrous Addiction"}
