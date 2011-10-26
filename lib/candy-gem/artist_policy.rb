@@ -66,6 +66,16 @@ class ArtistPolicy
       self.received_by_name(name, 3, ["Hard Candy","Gummy Snake","Candy of the Dead"], "Trick or Treater")      
     end
     
+    
+    def self.sent_a_message_to_number_of_users(profile, count)
+      if count == 7
+        profile.add_bage_by_name("Efficiency Award") 
+        #
+        #  profile already handles checking and caching.
+        #
+      end
+    end
+    
     def self.received_by_name(count, dedication_names, badge_name)
     end
     
