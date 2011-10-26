@@ -36,7 +36,7 @@ puts base
 #   SETTINGS...  PUT ALL SETTINGS IN THIS GROUP.
 #
 Setting.default('user_initial_points', "Initial User Points", "0")
-Setting.default('user_initial_stars', "Initial User Stars", "50")
+Setting.default('user_initial_stars', "Initial User Stars", "0")
 #Setting.default('inventory_max_gear', "Max Amount of User Gear", "12")
 #
 #  badges
