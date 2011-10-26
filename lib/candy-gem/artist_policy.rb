@@ -15,7 +15,7 @@ class ArtistPolicy
     end
     
     def self.update_player_badge_progress(profile,recipient_count, new_val)
-      logger.debug "[ArtistPolicy::Badge.update_player_badge_progress] recipient #{recipient_count}"
+      Rails.logger.debug "[ArtistPolicy::Badge.update_player_badge_progress] recipient #{recipient_count}"
       badges = {1 => "Welcome to the Horde", 27 => "Accomplished Monsterizer", 103 => "Deliverator"}
 
       badges.each do | k, v |
@@ -39,22 +39,19 @@ class ArtistPolicy
 
       name = message.attachable.name
 
-      self.sent_by_name(3, ["Net Spider","Spiderweb Cookie","Spider Kaleidoscope"], "Arachnid Wrangler")
-      self.sent_by_name(4, ["Ginger Dead Men","Lady Fingers","Death by Chocolate","Crispy Treat","Spiderweb Cookie"], "Tough Cookies")
-      self.sent_by_name(3 , ["Zombie Teddy","Come a Little Closer","Fury"], "Zombie Master")
+      self.sent_by_name(profile,name,3, ["Net Spider","Spiderweb Cookie","Spider Kaleidoscope"], "Arachnid Wrangler")
+      self.sent_by_name(profile,name,4, ["Ginger Dead Men","Lady Fingers","Death by Chocolate","Crispy Treat","Spiderweb Cookie"], "Tough Cookies")
+      self.sent_by_name(profile,name,3, ["Zombie Teddy","Come a Little Closer","Fury"], "Zombie Master")
     end
   
     
     def self.received_a_message(profile,message, count)
-      logger.debug "[ArtistPolicy::Badge.recieved_a_message] enter #{count}"
+      Rails.logger.debug "[ArtistPolicy::Badge.recieved_a_message] enter #{count}"
+      
 
-      badges = {13 => "Lucky 13"}
-
-      badges.each do | k, v |
-        if new_val >= k && new_val - recipient_count < k
-          b = profile.add_badge_by_name(v)
+      if Message.where(:recipient_id => profile.id).select(:sender_id).count == 13
+          b = profile.add_badge_by_name("Lucky 13")
           profile.acquired_badges << b unless b.nil?
-        end
       end
       
       return unless message.attachable.present?
@@ -62,8 +59,8 @@ class ArtistPolicy
 
       name = message.attachable.name
       
-      self.received_by_name(name, 4, ["Pumpkin Surprise","Princess Trick-Or-Treat","Infinite Pumpkin","Pumpkin Attack"], "Pumpkin Pie")
-      self.received_by_name(name, 3, ["Hard Candy","Gummy Snake","Candy of the Dead"], "Trick or Treater")      
+      self.received_by_name(profile,name, 4, ["Pumpkin Surprise","Princess Trick-Or-Treat","Infinite Pumpkin","Pumpkin Attack"], "Pumpkin Pie")
+      self.received_by_name(profile,name, 3, ["Hard Candy","Gummy Snake","Candy of the Dead"], "Trick or Treater")      
     end
     
     
@@ -76,10 +73,31 @@ class ArtistPolicy
       end
     end
     
-    def self.received_by_name(count, dedication_names, badge_name)
+    def self.received_by_name(profile,name,count, dedication_names, badge_name)
+      return false unless dedication_names.include? name
+      
+      dedication_ids = Rails.cache.fetch(dedication_names.join.tr('^a-zA-Z','')) do 
+        Dedication.where(:name=>dedication_names).collect{|x|x.id}
+      end
+      dedication_count = Message.where(:recipient_id => profile.id).where(:attachable_id=>dedication_ids).group(attachable_ids).count.values.collect{|x| a += x}.last
+      
+      if dedication_count > count
+        profile.badge_add_by_name(badge_name)
+      end
     end
     
-    def self.send_by_name(count, dedication_names, badge_name)
+    def self.sent_by_name(profile,name,count, dedication_names, badge_name)
+      return false unless dedication_names.include? name
+      
+      dedication_ids = Rails.cache.fetch(dedication_names.join.tr('^a-zA-Z','')) do 
+        Dedication.where(:name=>dedication_names).collect{|x|x.id}
+      end
+      dedication_count = Message.where(:sender_id => profile.id).where(:attachable_id=>dedication_ids).group(attachable_ids).count.values.collect{|x| a += x}.last
+      
+      if dedication_count > count
+        profile.badge_add_by_name(badge_name)
+      end
+    end
     
     def self.started_a_session(profile)
       badges = {4 => "Repeat Offender", 11 => "Monstrous Addiction"}
