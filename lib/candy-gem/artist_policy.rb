@@ -79,6 +79,7 @@ class ArtistPolicy
       dedication_ids = Rails.cache.fetch(dedication_names.join.tr('^a-zA-Z','')) do 
         Dedication.where(:name=>dedication_names).collect{|x|x.id}
       end
+      a=0
       dedication_count = Message.where(:recipient_id => profile.id).where(:attachable_id=>dedication_ids).group(:attachable_id).count.values.collect{|x| a += x}.last
       
       if dedication_count > count
@@ -92,6 +93,7 @@ class ArtistPolicy
       dedication_ids = Rails.cache.fetch(dedication_names.join.tr('^a-zA-Z','')) do 
         Dedication.where(:name=>dedication_names).collect{|x|x.id}
       end
+      a = 0
       dedication_count = Message.where(:sender_id => profile.id).where(:attachable_id=>dedication_ids).group(:attachable_id).count.values.collect{|x| a += x}.last
       
       if dedication_count > count
