@@ -47,14 +47,11 @@ class ArtistPolicy
     
     def self.received_a_message(profile,message, count)
       Rails.logger.debug "[ArtistPolicy::Badge.recieved_a_message] enter #{count}"
+      
 
-      badges = {13 => "Lucky 13"}
-
-      badges.each do | k, v |
-        if new_val >= k && new_val - recipient_count < k
-          b = profile.add_badge_by_name(v)
+      if Message.where(:recipient_id => profile.id).select(:sender_id).count == 13
+          b = profile.add_badge_by_name("Lucky 13")
           profile.acquired_badges << b unless b.nil?
-        end
       end
       
       return unless message.attachable.present?
