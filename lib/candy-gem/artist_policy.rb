@@ -79,7 +79,7 @@ class ArtistPolicy
       dedication_ids = Rails.cache.fetch(dedication_names.join.tr('^a-zA-Z','')) do 
         Dedication.where(:name=>dedication_names).collect{|x|x.id}
       end
-      dedication_count = Message.where(:recipient_id => profile.id).group(:attachable_id=>dedication_ids).count.values.collect{|x| a += x}.last
+      dedication_count = Message.where(:recipient_id => profile.id).where(:attachable_id=>dedication_ids).group(attachable_ids).count.values.collect{|x| a += x}.last
       
       if dedication_count > count
         profile.badge_add_by_name(badge_name)
@@ -92,7 +92,7 @@ class ArtistPolicy
       dedication_ids = Rails.cache.fetch(dedication_names.join.tr('^a-zA-Z','')) do 
         Dedication.where(:name=>dedication_names).collect{|x|x.id}
       end
-      dedication_count = Message.where(:sender_id => profile.id).group(:attachable_id=>dedication_ids).count.values.collect{|x| a += x}.last
+      dedication_count = Message.where(:sender_id => profile.id).where(:attachable_id=>dedication_ids).group(attachable_ids).count.values.collect{|x| a += x}.last
       
       if dedication_count > count
         profile.badge_add_by_name(badge_name)
