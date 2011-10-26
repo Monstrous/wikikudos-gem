@@ -15,7 +15,7 @@ class ArtistPolicy
     end
     
     def self.update_player_badge_progress(profile,recipient_count, new_val)
-      logger.debug "[ArtistPolicy::Badge.update_player_badge_progress] recipient #{recipient_count}"
+      Rails.logger.debug "[ArtistPolicy::Badge.update_player_badge_progress] recipient #{recipient_count}"
       badges = {1 => "Welcome to the Horde", 27 => "Accomplished Monsterizer", 103 => "Deliverator"}
 
       badges.each do | k, v |
@@ -46,7 +46,7 @@ class ArtistPolicy
   
     
     def self.received_a_message(profile,message, count)
-      logger.debug "[ArtistPolicy::Badge.recieved_a_message] enter #{count}"
+      Rails.logger.debug "[ArtistPolicy::Badge.recieved_a_message] enter #{count}"
 
       badges = {13 => "Lucky 13"}
 
