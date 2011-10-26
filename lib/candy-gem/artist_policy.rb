@@ -66,7 +66,7 @@ class ArtistPolicy
     
     def self.sent_a_message_to_number_of_users(profile, count)
       if count == 7
-        profile.add_bage_by_name("Efficiency Award") 
+        profile.add_badge_by_name("Efficiency Award") 
         #
         #  profile already handles checking and caching.
         #
@@ -83,7 +83,7 @@ class ArtistPolicy
       dedication_count = Message.where(:recipient_id => profile.id).where(:attachable_id=>dedication_ids).group(:attachable_id).count.values.collect{|x| a += x}.last
       
       if dedication_count > count
-        profile.badge_add_by_name(badge_name)
+        profile.add_badge_by_name(badge_name)
       end
     end
     
@@ -97,7 +97,7 @@ class ArtistPolicy
       dedication_count = Message.where(:sender_id => profile.id).where(:attachable_id=>dedication_ids).group(:attachable_id).count.values.collect{|x| a += x}.last
       
       if dedication_count > count
-        profile.badge_add_by_name(badge_name)
+        profile.add_badge_by_name(badge_name)
       end
     end
     
