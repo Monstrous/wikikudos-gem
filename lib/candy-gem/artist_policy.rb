@@ -77,9 +77,11 @@ class ArtistPolicy
     end
     
     def self.received_by_name(count, dedication_names, badge_name)
+      
     end
     
     def self.send_by_name(count, dedication_names, badge_name)
+    end
     
     def self.started_a_session(profile)
       badges = {4 => "Repeat Offender", 11 => "Monstrous Addiction"}
