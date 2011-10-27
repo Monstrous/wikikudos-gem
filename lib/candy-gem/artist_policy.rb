@@ -82,7 +82,7 @@ class ArtistPolicy
       a=0
       dedication_count = Message.where(:recipient_id => profile.id).where(:attachable_id=>dedication_ids).group(:attachable_id).count.values.collect{|x| a += 1}.last
       
-      if dedication_count > count
+      if dedication_count >= count
         profile.add_badge_by_name(badge_name)
       end
     end
@@ -96,7 +96,7 @@ class ArtistPolicy
       a = 0
       dedication_count = Message.where(:sender_id => profile.id).where(:attachable_id=>dedication_ids).group(:attachable_id).count.values.collect{|x| a += 1}.last
       
-      if dedication_count > count
+      if dedication_count >= count
         profile.add_badge_by_name(badge_name)
       end
     end
