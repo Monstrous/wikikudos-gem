@@ -37,10 +37,14 @@ class ArtistPolicy
 
       name = message.attachable.name
 
-      self.sent_by_name(profile,name,3, ["Net Spider","Spiderweb Cookie","Spider Kaleidoscope"], "Arachnid Wrangler")
-      self.sent_by_name(profile,name,4, ["Ginger Dead Men","Lady Fingers","Death by Chocolate","Crispy Treat","Spiderweb Cookie"], "Totally Baked")
-      self.sent_by_name(profile,name,5, ["Zombie Teddy","Come a Little Closer","Fury","Another Day At The Office","Dumb Brain-Eating Jock","Up Past Her Bedtime","On-Call Nurse"], "Zombie Master")
-      self.sent_by_name(profile,name,3, ["Candy of the Dead", "Flower Skull", "Kiss Me, I'm Yours", "Grim Reaper", "Sugar Fiend"], "Bone Collector")      
+      self.sent_by_name(profile,name,3, ["Net Spider","Spiderweb Cookie","Spider Kaleidoscope","Spider Cupcakes"], "Arachnid Wrangler")
+      self.sent_by_name(profile,name,4, ["Ginger Dead Men","Lady Fingers","Death by Chocolate","Crispy Treat",
+      			"Spiderweb Cookie","Spider Cupcakes","Fresh Baked Peanut Butter Pieces Cookies"], "Totally Baked")
+      self.sent_by_name(profile,name,5, ["Zombie Teddy","Come a Little Closer","Fury","Another Day At The Office","Brain-Eating Jock",
+      			"Up Past Her Bedtime","On-Call Nurse","Eat Your Heart Out","Zombie Sign","Zombies at Sunrise"], "Zombie Master")
+      self.sent_by_name(profile,name,8, ["Candy of the Dead", "Flower Skull", "Kiss Me, I'm Yours", "Grim Reaper", "Sugar Fiend","Reaper Says",
+      			"Wish You Were Here","Dungeon Party","Skull Mandala","Flaming Skeletons","Happy Dance","Always in my Heart","Sugar Skulls",
+      			"Knife Licking Guy"], "Bone Collector")      
     end
 
     
@@ -57,13 +61,17 @@ class ArtistPolicy
 
       name = message.attachable.name
       
-      self.received_by_name(profile,name, 4, ["Pumpkin Surprise","Princess Trick or Treat","Infinite Pumpkin","Pumpkin Attack","Jack O' Lantern"], "Pumpkin Snatcher")
-      self.received_by_name(profile,name, 3, ["Hard Candy","Gummy Snake","Swirly Lolly","Candy of the Dead"], "Trick or Treater")      
-      self.received_by_name(profile,name, 5, ["Vampire Priss", "We Do Not Sparkle", "Vampire Queen", "Vampire Sugar Rush", "Sexy Vampire", "That Sucks!", "What-ever!", "You've Got My Heart" ], "Van Helsing")      
-      self.received_by_name(profile,name, 3, ["Curious Cats","Questionable Intentions","Kitty Trick or Treater","A Witch and Her Cat","Halloween Kitty"], "Cat Whisperer")
+      self.received_by_name(profile,name, 4, ["Pumpkin Surprise","Princess Trick or Treat","Infinite Pumpkin","Pumpkin Attack",
+      			"Jack O' Lantern","Pumpkin Patch","Menacing Jack O' Lantern","Pumpkin Posse","Pumpkin Scaring Pumpkin"], "Pumpkin Snatcher")
+      self.received_by_name(profile,name, 3, ["Hard Candy","Gummy Snake","Swirly Lolly","Candy of the Dead","Peanut Butter Cup",
+      			"Chewy Peanut Buttery Candy","Licorice Vampire","Haunted Candypops","Sea of Worms","Chickloscope","Gummy Brute Squad",
+      			"Gummy Armada","Gummy Pileup","Twizazzlers","Snackerz Bar","Classic Candy Corn","Witch Candy","Sugar Skulls"], "Trick or Treater")      
+      self.received_by_name(profile,name, 5, ["Vampire Priss", "We Do Not Sparkle", "Vampire Queen", "Vampire Sugar Rush", "Sexy Vampire",
+      			"That Sucks!", "What-ever!", "You've Got My Heart","Licorice Vampire","Old School Vampire","Vampire Grillz"], "Van Helsing")      
+      self.received_by_name(profile,name, 3, ["Curious Cats","Questionable Intentions","Kitty Trick or Treater","Every Witch Needs a Cat",
+      			"Halloween Kitty","Mrrrrow","Boo","Show No Fear","Hang In There"], "Cat Whisperer")
     end
-    
-    
+
     def self.sent_a_message_to_number_of_users(profile, count)
       if count == 7
         profile.add_badge_by_name("Efficiency Award") 
