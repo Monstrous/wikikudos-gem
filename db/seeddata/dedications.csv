@@ -12,7 +12,7 @@ Gummy Snake,green and black striped snake,E,0,n,M010_full.jpg,0,0,M010_prev.jpg,
 Swirly Lolly,"shiny, yellow background",E,0,n,M011_full.jpg,0,0,M011_prev.jpg,M011_icon.jpg,1,10,0,0,TRUE
 Unimpressed Gargoyle (is Unimpressed),statue and city view,G,"F, P",y,M012_full.jpg,0,0,M012_prev.jpg,M012_icon.jpg,1,10,0,0,TRUE
 Zombie Teddy,"cartoon, huuuuugs",G,C,y,M013_full.jpg,0,0,M013_prev.jpg,M013_icon.jpg,1,10,0,0,TRUE
-Krispy Treat,starburst background,E,0,n,M014_full.jpg,0,0,M014_prev.jpg,M014_icon.jpg,1,10,0,0,TRUE
+Crispy Treat,starburst background,E,0,n,M014_full.jpg,0,0,M014_prev.jpg,M014_icon.jpg,1,10,0,0,TRUE
 8 Eyed Green Monster,cartoon,G,C,n,M015_full.jpg,0,0,M015_prev.jpg,M015_icon.jpg,1,10,0,0,TRUE
 Pumpkin Surprise,"skeleton hands,pumpkin head",G,"F, C",n,M016_full.jpg,0,0,M016_prev.jpg,M016_icon.jpg,1,10,0,0,TRUE
 Raven Moon,bird in tree at night,G,"D, P",n,M017_full.jpg,0,0,M017_prev.jpg,M017_icon.jpg,1,15,0,0,TRUE
@@ -30,7 +30,7 @@ Infinite Pumpkin,pumpkin swirl,G,"C,D",n,M028_full.jpg,0,0,M028_prev.jpg,M028_ic
 Questionable Intentions,smurfette kitty,G,"C, F",n,M029_full.jpg,0,0,M029_prev.jpg,M029_icon.jpg,1,15,0,0,TRUE
 We Do Not Sparkle,portrait,G,"S,D",n,M030_full.jpg,0,0,M030_prev.jpg,M030_icon.jpg,1,5,0,0,TRUE
 Clowninator,liquid metal clown,G,"S, D",n,M031_full.jpg,0,0,M031_prev.jpg,M031_icon.jpg,1,10,0,0,TRUE
-Candy of the Dead,candy and skeleton,E,,n,M032_full.jpg,0,0,M032_prev.jpg,M032_icon.jpg,1,5,0,0,TRUE
+Candy of the Dead,candy and skeleton,E,0,n,M032_full.jpg,0,0,M032_prev.jpg,M032_icon.jpg,1,5,0,0,TRUE
 Man and Squid,squid riding man,G,"F, C",n,M033_full.jpg,0,0,M033_prev.jpg,M033_icon.jpg,1,15,0,0,TRUE
 Reaperette,reaper girl,G,"S, D",n,M034_full.jpg,0,0,M034_prev.jpg,M034_icon.jpg,1,10,0,0,TRUE
 Come a Little Closer,girl and doll,G,"S,D",n,M035_full.jpg,0,0,M035_prev.jpg,M035_icon.jpg,1,10,0,0,TRUE
@@ -49,5 +49,68 @@ Vampire Sugar Rush,bloody lips,G,"S, D",n,M047_full.jpg,0,0,M047_prev.jpg,M047_i
 Monsters Can Hear Your Thoughts,two kids in bed,G,"C, F",n,M048_full.jpg,0,0,M048_prev.jpg,M048_icon.jpg,1,10,0,0,TRUE
 SkullFistCrab,skullfistcrab,G,"S, D",n,M049_full.jpg,0,0,M049_prev.jpg,M049_icon.jpg,1,10,0,0,FALSE
 Last Minute Costume Ideas,electrical tape costume,G,"F, C",n,M050_full.jpg,0,0,M050_prev.jpg,M050_icon.jpg,1,10,0,0,TRUE
-"Scary, Untested Code",code on green,G,F,y,M051_full.jpg,0,0,M051_prev.jpg,M051_icon.jpg,2,15,0,0,TRUE
+Frightening Untested Code,code on green,G,F,y,M051_full.jpg,0,0,M051_prev.jpg,M051_icon.jpg,2,15,0,0,TRUE
 Toad Curious?,psychedelic toad..some toads are magical,G,F,y,M052_full.jpg,0,0,M052_prev.jpg,M052_icon.jpg,2,20,0,0,TRUE
+3 Eyed Monster,3 eyed monster,0,G,N,M053_full.jpg,0,0,M053_prev.jpg,M053_full.jpg,1,10,0,0,TRUE
+Luche Libre,luche libre,F,G,N,M054_full.jpg,0,0,M054_prev.jpg,M054_icon.jpg,1,10,0,0,TRUE
+Loch Ness Coffee Monster,scary latte!,F,G,N,M055_full.jpg,0,0,M055_prev.jpg,M055_icon.jpg,1,10,0,0,TRUE
+Kitty Trick or Treater,meow!,C,G,N,M056_full.jpg,0,0,M056_prev.jpg,M056_icon.jpg,1,10,0,0,TRUE
+Sugar Crazed Kid,too much sugar!,F,G,N,M057_full.jpg,0,0,M057_prev.jpg,M057_icon.jpg,1,10,0,0,TRUE
+Haunting Yellow Eyes,haunting eyes,C,G,Y,M058_full.jpg,0,0,M058_prev.jpg,M058_icon.jpg,1,10,0,0,TRUE
+Haunting Red Eyes,haunting eyes,C,G,Y,M059_full.jpg,0,0,M059_prev.jpg,M059_icon.jpg,1,10,0,0,TRUE
+Haunting Green Eyes,haunting eyes,C,G,Y,M060_full.jpg,0,0,M060_prev.jpg,M060_icon.jpg,1,10,0,0,TRUE
+Haunting Blue Eyes,haunting eyes,C,G,Y,M061_full.jpg,0,0,M061_prev.jpg,M061_icon.jpg,1,10,0,0,TRUE
+Witches Hat,witches hat,C,G,N,M062_full.jpg,0,0,M062_prev.jpg,M062_icon.jpg,1,10,0,0,TRUE
+Jack O' Lantern,jack o' lantern,C,G,N,M063_full.jpg,0,0,M063_prev.jpg,M063_icon.jpg,1,10,0,0,TRUE
+Spooky Owl,whoo? whoo?,C,G,N,M064_full.jpg,0,0,M064_prev.jpg,M064_icon.jpg,1,10,0,0,TRUE
+Witches Cauldron,witches cauldron,C,G,N,M065_full.jpg,0,0,M065_prev.jpg,M065_icon.jpg,1,10,0,0,TRUE
+Monstrous Home Repair Bill,bills! scary!,F,G,N,M066_full.jpg,0,0,M066_prev.jpg,M066_icon.jpg,1,10,0,0,TRUE
+Nagging Conscience,exercise! quit smoking! break up with him!,F,G,N,M067_full.jpg,0,0,M067_prev.jpg,M067_icon.jpg,1,10,0,0,TRUE
+Hungry Kid,he'll eat anything! scary!,,G,N,M068_full.jpg,0,0,M068_prev.jpg,M068_icon.jpg,1,10,0,0,TRUE
+Open Mind,open mind,F,G,N,M069_full.jpg,0,0,M069_prev.jpg,M069_icon.jpg,1,10,0,0,TRUE
+Pink Cowboy Costume,scary! and confusing!,F,G,N,M070_full.jpg,0,0,M070_prev.jpg,M070_icon.jpg,1,10,0,0,TRUE
+Pirate With A Peg Leg,arrrrr!,F,G,N,M071_full.jpg,0,0,M071_prev.jpg,M071_icon.jpg,1,10,0,0,TRUE
+Rockabilly Frankenstein,killer tunes!,F,G,N,M072_full.jpg,0,0,M072_prev.jpg,M072_icon.jpg,1,10,0,0,TRUE
+Routine Physical,routine physical,F,G,N,M073_full.jpg,0,0,M073_prev.jpg,M073_icon.jpg,1,10,0,0,TRUE
+Satan Wants You!,satan wants you,F,G,N,M074_full.jpg,0,0,M074_prev.jpg,M074_icon.jpg,1,10,0,0,TRUE
+Severed Robot Head,severed robot head,F,G,N,M075_full.jpg,0,0,M075_prev.jpg,M075_icon.jpg,1,10,0,0,TRUE
+Sexy Vampire,buy me a drink?,F,G,N,M076_full.jpg,0,0,M076_prev.jpg,M076_icon.jpg,1,10,0,0,TRUE
+Sexy Witch,bewitched?,F,G,Y,M077_full.jpg,0,0,M077_prev.jpg,M077_icon.jpg,1,10,0,0,TRUE
+Sexy Witch,under her spell?,F,G,N,M078_full.jpg,0,0,M078_prev.jpg,M078_icon.jpg,1,10,0,0,TRUE
+Talk To The Hand!,high five!,F,G,Y,M079_full.jpg,0,0,M079_prev.jpg,M079_icon.jpg,1,10,0,0,TRUE
+Toilet Paper Wrapped Mummy,cute first constume,F,G,N,M080_full.jpg,0,0,M080_prev.jpg,M080_icon.jpg,1,10,0,0,TRUE
+Terrifying Blind Date,scary boy!,F,G,N,M081_full.jpg,0,0,M081_prev.jpg,M081_icon.jpg,1,10,0,0,TRUE
+Terrifying Blind Date,scary girl!,F,G,N,M082_full.jpg,0,0,M082_prev.jpg,M082_icon.jpg,1,10,0,0,TRUE
+Texas-Sized Chainsaw,texas-sized chainsaw,F,G,N,M083_full.jpg,0,0,M083_prev.jpg,M083_icon.jpg,1,10,0,0,TRUE
+Traumatized Ex-Girlfriend,she ran away!,F,G,N,M084_full.jpg,0,0,M084_prev.jpg,M084_icon.jpg,1,10,0,0,TRUE
+Cute Trick Or Treater,cute trick or treater,C,G,N,M085_full.jpg,0,0,M085_prev.jpg,M085_icon.jpg,1,10,0,0,TRUE
+Cute Trick Or Treater,cute trick or treater,C,G,N,M086_full.jpg,0,0,M086_prev.jpg,M086_icon.jpg,1,10,0,0,TRUE
+That Sucks!,that sucks!,F,G,N,M087_full.jpg,0,0,M087_prev.jpg,M087_icon.jpg,1,10,0,0,TRUE
+Welcome To Hell!,welcome!,F,G,Y,M088_full.jpg,0,0,M088_prev.jpg,M088_icon.jpg,1,10,0,0,TRUE
+Witch & Her Cat,every witch needs a cat!,F,G,N,M089_full.jpg,0,0,M089_prev.jpg,M089_icon.jpg,1,10,0,0,TRUE
+Your Bosses' Severed Head,revenge!,F,G,N,M090_full.jpg,0,0,M090_prev.jpg,M090_icon.jpg,1,10,0,0,TRUE
+Your Mother-In_Law's Cooking,scary!,F,G,N,M091_full.jpg,0,0,M091_prev.jpg,M091_icon.jpg,1,10,0,0,TRUE
+Another Day At The Office,another day at the office,,G,N,M092_full.jpg,0,0,M092_prev.jpg,M092_icon.jpg,1,10,0,0,TRUE
+Dumb Brain-Eating Jock,dumb zombie jock,F,G,N,M093_full.jpg,0,0,M093_prev.jpg,M093_icon.jpg,1,10,0,0,TRUE
+Up Past Her Bedtime,up past here bedtime,F,G,N,M094_full.jpg,0,0,M094_prev.jpg,M094_icon.jpg,1,10,0,0,TRUE
+On-Call Nurse,scary!,F,G,N,M095_full.jpg,0,0,M095_prev.jpg,M095_icon.jpg,1,10,0,0,TRUE
+What-ever!,what-ever!!,F,G,N,M096_full.jpg,0,0,M096_prev.jpg,M096_icon.jpg,1,10,0,0,TRUE
+Halloween Kitty,scary!,C,G,N,M097_full.jpg,0,0,M097_prev.jpg,M097_icon.jpg,1,10,0,0,TRUE
+Witches Broom,scary!,C,G,N,M098_full.jpg,0,0,M098_prev.jpg,M098_icon.jpg,1,10,0,0,TRUE
+Grim Reaper,coming for you!,C,G,Y,M099_full.jpg,0,0,M099_prev.jpg,M099_icon.jpg,1,10,0,0,TRUE
+Halloween Cocktail,halloween cocktail,C,G,N,M100_full.jpg,0,0,M100_prev.jpg,M100_icon.jpg,1,10,0,0,TRUE
+Evil Henchman,evil henchman,F,G,Y,M101_full.jpg,0,0,M101_prev.jpg,M101_icon.jpg,1,10,0,0,TRUE
+3rd Degree Sunburn,ouch!,F,G,N,M102_full.jpg,0,0,M102_prev.jpg,M102_icon.jpg,1,10,0,0,TRUE
+Angst-Ridden Teenager,angst-ridden teenager,F,G,N,M103_full.jpg,0,0,M103_prev.jpg,M103_icon.jpg,1,10,0,0,TRUE
+Don't Lose Your Head!,don't lose your head,F,G,Y,M104_full.jpg,0,0,M104_prev.jpg,M104_icon.jpg,1,10,0,0,TRUE
+Brainless Televison,will eat your soul!!,C,G,N,M105_full.jpg,0,0,M105_prev.jpg,M105_icon.jpg,1,10,0,0,TRUE
+Beckoning Grave,sooner or later...,F,G,N,M106_full.jpg,0,0,M106_prev.jpg,M106_icon.jpg,1,10,0,0,TRUE
+Brain In A Vat,Descartes' nightmare,F,G,N,M107_full.jpg,0,0,M107_prev.jpg,M107_icon.jpg,1,10,0,0,TRUE
+Caffeine Monster,too much coffee!,F,G,N,M108_full.jpg,0,0,M108_prev.jpg,M108_icon.jpg,1,10,0,0,TRUE
+Chupacabra,chupacabra,F,G,N,M109_full.jpg,0,0,M109_prev.jpg,M109_icon.jpg,1,10,0,0,TRUE
+Little Devil,little devil,C,G,Y,M110_full.jpg,0,0,M110_prev.jpg,M110_icon.jpg,1,10,0,0,TRUE
+When Do The Stitches Come Out?,scary!,F,G,Y,M111_full.jpg,0,0,M111_prev.jpg,M111_icon.jpg,1,10,0,0,TRUE
+Haunting Presence,haunting presence,F,G,Y,M112_full.jpg,0,0,M112_prev.jpg,M112_icon.jpg,1,10,0,0,TRUE
+Sugar Fiend,sugar fiend,F,G,N,M113_full.jpg,0,0,M113_prev.jpg,M113_icon.jpg,1,10,0,0,TRUE
+You've Got My Heart,you've got my heart,F,G,Y,M114_full.jpg,0,0,M114_prev.jpg,M114_icon.jpg,1,10,0,0,TRUE
+Which Witch?,which witch?,F,G,Y,M115_full.jpg,0,0,M115_prev.jpg,M115_icon.jpg,1,10,0,0,TRUE
