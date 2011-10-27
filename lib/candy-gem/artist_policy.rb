@@ -39,7 +39,7 @@ class ArtistPolicy
 
       self.sent_by_name(profile,name,3, ["Net Spider","Spiderweb Cookie","Spider Kaleidoscope"], "Arachnid Wrangler")
       self.sent_by_name(profile,name,4, ["Ginger Dead Men","Lady Fingers","Death by Chocolate","Crispy Treat","Spiderweb Cookie"], "Totally Baked")
-      self.sent_by_name(profile,name,3, ["Zombie Teddy","Come a Little Closer","Fury"], "Zombie Master")
+      self.sent_by_name(profile,name,4, ["Zombie Teddy","Come a Little Closer","Fury"], "Zombie Master")
     end
   
     
