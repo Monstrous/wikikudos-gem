@@ -39,9 +39,10 @@ class ArtistPolicy
 
       self.sent_by_name(profile,name,3, ["Net Spider","Spiderweb Cookie","Spider Kaleidoscope"], "Arachnid Wrangler")
       self.sent_by_name(profile,name,4, ["Ginger Dead Men","Lady Fingers","Death by Chocolate","Crispy Treat","Spiderweb Cookie"], "Totally Baked")
-      self.sent_by_name(profile,name,4, ["Zombie Teddy","Come a Little Closer","Fury"], "Zombie Master")
+      self.sent_by_name(profile,name,5, ["Zombie Teddy","Come a Little Closer","Fury","Another Day At The Office","Dumb Brain-Eating Jock","Up Past Her Bedtime","On-Call Nurse"], "Zombie Master")
+      self.sent_by_name(profile,name,3, ["Candy of the Dead", "Flower Skull", "Kiss Me, I'm Yours", "Grim Reaper", "Sugar Fiend"], "Bone Collector")      
     end
-  
+
     
     def self.received_a_message(profile,message, count)
       Rails.logger.debug "[ArtistPolicy::Badge.recieved_a_message] enter #{count}"
@@ -56,8 +57,10 @@ class ArtistPolicy
 
       name = message.attachable.name
       
-      self.received_by_name(profile,name, 4, ["Pumpkin Surprise","Princess Trick-Or-Treat","Infinite Pumpkin","Pumpkin Attack"], "Pumpkin Snatcher")
-      self.received_by_name(profile,name, 3, ["Hard Candy","Gummy Snake","Candy of the Dead"], "Trick or Treater")      
+      self.received_by_name(profile,name, 4, ["Pumpkin Surprise","Princess Trick or Treat","Infinite Pumpkin","Pumpkin Attack","Jack O' Lantern"], "Pumpkin Snatcher")
+      self.received_by_name(profile,name, 3, ["Hard Candy","Gummy Snake","Swirly Lolly","Candy of the Dead"], "Trick or Treater")      
+      self.received_by_name(profile,name, 5, ["Vampire Priss", "We Do Not Sparkle", "Vampire Queen", "Vampire Sugar Rush", "Sexy Vampire", "That Sucks!", "What-ever!", "You've Got My Heart" ], "Van Helsing")      
+      self.received_by_name(profile,name, 3, ["Curious Cats","Questionable Intentions","Kitty Trick or Treater","A Witch and Her Cat","Halloween Kitty"], "Cat Whisperer")
     end
     
     
