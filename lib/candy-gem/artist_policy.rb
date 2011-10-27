@@ -38,7 +38,7 @@ class ArtistPolicy
       name = message.attachable.name
 
       self.sent_by_name(profile,name,3, ["Net Spider","Spiderweb Cookie","Spider Kaleidoscope"], "Arachnid Wrangler")
-      self.sent_by_name(profile,name,4, ["Ginger Dead Men","Lady Fingers","Death by Chocolate","Crispy Treat","Spiderweb Cookie"], "Tough Cookies")
+      self.sent_by_name(profile,name,4, ["Ginger Dead Men","Lady Fingers","Death by Chocolate","Crispy Treat","Spiderweb Cookie"], "Totally Baked")
       self.sent_by_name(profile,name,3, ["Zombie Teddy","Come a Little Closer","Fury"], "Zombie Master")
     end
   
@@ -56,7 +56,7 @@ class ArtistPolicy
 
       name = message.attachable.name
       
-      self.received_by_name(profile,name, 4, ["Pumpkin Surprise","Princess Trick-Or-Treat","Infinite Pumpkin","Pumpkin Attack"], "Pumpkin Pie")
+      self.received_by_name(profile,name, 4, ["Pumpkin Surprise","Princess Trick-Or-Treat","Infinite Pumpkin","Pumpkin Attack"], "Pumpkin Snatcher")
       self.received_by_name(profile,name, 3, ["Hard Candy","Gummy Snake","Candy of the Dead"], "Trick or Treater")      
     end
     
