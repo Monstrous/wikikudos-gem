@@ -6,7 +6,7 @@ class ArtistPolicy
       count = 1 # the number of new users added.
 
       badges.each do | k, v |
-        if new_val >= k && new_val - count < k
+        if new_val == k
           b = profile.add_badge_by_name(v)
           profile.acquired_badges << b unless b.nil?
         end
