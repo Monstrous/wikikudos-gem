@@ -8,7 +8,6 @@ class ArtistPolicy
       badges.each do | k, v |
         if new_val == k
           b = profile.add_badge_by_name(v)
-          profile.acquired_badges << b unless b.nil?
         end
       end
       
@@ -32,7 +31,6 @@ class ArtistPolicy
       badges.each do | k, v |
         if count == k
           b = profile.add_badge_by_name(v)
-          profile.acquired_badges << b unless b.nil?
         end
       end
 
@@ -51,7 +49,6 @@ class ArtistPolicy
 
       if Message.where(:recipient_id => profile.id).select(:sender_id).count == 13
           b = profile.add_badge_by_name("Lucky 13")
-          profile.acquired_badges << b unless b.nil?
       end
       
       return unless message.attachable.present?
