@@ -66,7 +66,7 @@ Spooky Owl,whoo? whoo?,C,G,N,M064_full.jpg,0,0,M064_prev.jpg,M064_icon.jpg,7,10,
 Witches Cauldron,witches cauldron,C,G,N,M065_full.jpg,0,0,M065_prev.jpg,M065_icon.jpg,1,10,0,0,TRUE,0,0
 Monstrous Home Repair Bill,bills! scary!,F,G,N,M066_full.jpg,0,0,M066_prev.jpg,M066_icon.jpg,4,10,0,0,TRUE,0,0
 Nagging Conscience,exercise! quit smoking! break up with him!,F,G,N,M067_full.jpg,0,0,M067_prev.jpg,M067_icon.jpg,2,5,0,0,TRUE,0,0
-Hungry Kid,he'll eat anything! scary!,,G,N,M068_full.jpg,0,0,M068_prev.jpg,M068_icon.jpg,7,15,0,0,TRUE,0,0
+Hungry Kid,"he'll eat anything! scary!",,G,N,M068_full.jpg,0,0,M068_prev.jpg,M068_icon.jpg,7,15,0,0,TRUE,0,0
 Open Mind,open mind,F,G,N,M069_full.jpg,0,0,M069_prev.jpg,M069_icon.jpg,6,20,0,0,TRUE,0,0
 Pink Cowboy Costume,scary! and confusing!,F,G,N,M070_full.jpg,0,0,M070_prev.jpg,M070_icon.jpg,5,15,0,0,FALSE,0,not clearly a costume
 Pirate Costume,arrrrr!,F,G,N,M071_full.jpg,0,0,M071_prev.jpg,M071_icon.jpg,7,10,0,0,FALSE,0,not clearly a costume
@@ -88,8 +88,8 @@ Little Princess,cute trick or treater,C,G,N,M086_full.jpg,0,0,M086_prev.jpg,M086
 That Sucks!,that sucks!,F,G,N,M087_full.jpg,0,0,M087_prev.jpg,M087_icon.jpg,2,20,0,0,TRUE,vampire,0
 Welcome To Hell!,welcome!,F,G,Y,M088_full.jpg,0,0,M088_prev.jpg,M088_icon.jpg,4,10,0,0,FALSE,0,"use of ""Hell"""
 Every Witch Needs a Cat,every witch needs a cat!,F,G,N,M089_full.jpg,0,0,M089_prev.jpg,M089_icon.jpg,7,10,0,0,TRUE,cat,0
-Your Bosses' Severed Head,revenge!,F,G,N,M090_full.jpg,0,0,M090_prev.jpg,M090_icon.jpg,7,15,0,0,TRUE,0,0
-Your Mother-In-Law's Cooking,scary!,F,G,N,M091_full.jpg,0,0,M091_prev.jpg,M091_icon.jpg,6,15,0,0,TRUE,0,0
+"Your Bosses' Severed Head",revenge!,F,G,N,M090_full.jpg,0,0,M090_prev.jpg,M090_icon.jpg,7,15,0,0,TRUE,0,0
+"Your Mother-In-Law's Cooking",scary!,F,G,N,M091_full.jpg,0,0,M091_prev.jpg,M091_icon.jpg,6,15,0,0,TRUE,0,0
 Another Day At The Office,another day at the office,,G,N,M092_full.jpg,0,0,M092_prev.jpg,M092_icon.jpg,3,15,0,0,TRUE,zombie,0
 Brain-Eating Jock,dumb zombie jock,F,G,N,M093_full.jpg,0,0,M093_prev.jpg,M093_icon.jpg,6,15,0,0,TRUE,zombie,0
 Up Past Her Bedtime,up past here bedtime,F,G,N,M094_full.jpg,0,0,M094_prev.jpg,M094_icon.jpg,7,15,0,0,TRUE,zombie,0
@@ -102,17 +102,17 @@ Halloween Cocktail,halloween cocktail,C,G,N,M100_full.jpg,0,0,M100_prev.jpg,M100
 Evil Henchman,evil henchman,F,G,Y,M101_full.jpg,0,0,M101_prev.jpg,M101_icon.jpg,3,10,0,0,TRUE,0,0
 3rd Degree Sunburn,ouch!,F,G,N,M102_full.jpg,0,0,M102_prev.jpg,M102_icon.jpg,9,10,0,0,TRUE,0,0
 Angst-Ridden Teenage Monster,angst-ridden teenager,F,G,N,M103_full.jpg,0,0,M103_prev.jpg,M103_icon.jpg,9,15,0,0,TRUE,0,0
-Don't Lose Your Head!,don't lose your head,F,G,Y,M104_full.jpg,0,0,M104_prev.jpg,M104_icon.jpg,1,10,0,0,TRUE,0,0
+"Don't Lose Your Head!","don't lose your head",F,G,Y,M104_full.jpg,0,0,M104_prev.jpg,M104_icon.jpg,1,10,0,0,TRUE,0,0
 Brainless Televison,will eat your soul!!,C,G,N,M105_full.jpg,0,0,M105_prev.jpg,M105_icon.jpg,4,10,0,0,TRUE,0,0
 Beckoning Grave,sooner or later...,F,G,N,M106_full.jpg,0,0,M106_prev.jpg,M106_icon.jpg,7,5,0,0,TRUE,0,0
-Brain In A Vat,Descartes' nightmare,F,G,N,M107_full.jpg,0,0,M107_prev.jpg,M107_icon.jpg,5,20,0,0,TRUE,0,0
+Brain In A Vat,"Descartes' nightmare",F,G,N,M107_full.jpg,0,0,M107_prev.jpg,M107_icon.jpg,5,20,0,0,TRUE,0,0
 Caffeine Monster,too much coffee!,F,G,N,M108_full.jpg,0,0,M108_prev.jpg,M108_icon.jpg,8,15,0,0,TRUE,0,0
 Chupacabra,chupacabra,F,G,N,M109_full.jpg,0,0,M109_prev.jpg,M109_icon.jpg,7,10,0,0,TRUE,0,0
 Little Devil,little devil,C,G,Y,M110_full.jpg,0,0,M110_prev.jpg,M110_icon.jpg,1,10,0,0,TRUE,0,0
 When Do The Stitches Come Out?,scary!,F,G,Y,M111_full.jpg,0,0,M111_prev.jpg,M111_icon.jpg,8,15,0,0,TRUE,0,0
 Haunting Presence,haunting presence,F,G,Y,M112_full.jpg,0,0,M112_prev.jpg,M112_icon.jpg,4,5,0,0,TRUE,0,0
 Sugar Fiend,sugar fiend,F,G,N,M113_full.jpg,0,0,M113_prev.jpg,M113_icon.jpg,6,15,0,0,TRUE,skeleton,0
-You've Got My Heart,you've got my heart,F,G,Y,M114_full.jpg,0,0,M114_prev.jpg,M114_icon.jpg,8,15,0,0,TRUE,vampire,0
+"You've Got My Heart","you've got my heart",F,G,Y,M114_full.jpg,0,0,M114_prev.jpg,M114_icon.jpg,8,15,0,0,TRUE,vampire,0
 Which Witch?,which witch?,F,G,Y,M115_full.jpg,0,0,M115_prev.jpg,M115_icon.jpg,8,10,0,0,TRUE,0,0
 Peanut Butter Cup,with a bite taken out,E,0,0,M116_full.jpg,0,0,M116_prev.jpg,M116_icon.jpg,3,10,0,0,TRUE,candy,0
 Chewy Peanut Buttery Candy,orange and black  candies,E,0,0,M117_full.jpg,0,0,M117_prev.jpg,M117_icon.jpg,4,15,0,0,TRUE,candy,0
@@ -147,7 +147,7 @@ Old School Vampire,portrait of victorian vampire,G,0,0,M145_full.jpg,0,0,M145_pr
 Flaming Skeletons,happy skeletons on fire,G,0,0,M146_full.jpg,0,0,M146_prev.jpg,M146_icon.jpg,2,10,0,0,FALSE,skeleton,0
 Vampire Grillz,vampire tooth deco,G,0,0,M147_full.jpg,0,0,M147_prev.jpg,M147_icon.jpg,5,15,0,0,TRUE,vampire,0
 Happy Dance,illustrated cute dancing skeletons,G,0,0,M148_full.jpg,0,0,M148_prev.jpg,M148_icon.jpg,5,10,0,0,TRUE,skeleton,0
-Fresh Baked Peanut Butter Pieces Cookies,reece's pieces cookies,E,0,0,M149_full.jpg,0,0,M149_prev.jpg,M149_icon.jpg,4,10,0,0,TRUE,baked,0
+Fresh Baked Peanut Butter Pieces Cookies,"reece's pieces cookies",E,0,0,M149_full.jpg,0,0,M149_prev.jpg,M149_icon.jpg,4,10,0,0,TRUE,baked,0
 Always in my Heart,woman in day of the dead makeup,G,0,0,M150_full.jpg,0,0,M150_prev.jpg,M150_icon.jpg,4,10,0,0,FALSE,skeleton,0
 Sugar Skulls,dead of the dead candy,E,0,0,M151_full.jpg,0,0,M151_prev.jpg,M151_icon.jpg,5,10,0,0,TRUE,"skeleton, candy",0
 Angel Wings,photo of wings on fancy bg,W,0,0,M152_full.jpg,0,0,M152_prev.jpg,M152_icon.jpg,4,5,0,0,TRUE,0,0
@@ -156,10 +156,10 @@ Chainsaw,Woman with chainsaw in the moonlight,G,0,0,M154_full.jpg,0,0,M154_prev.
 Slacker,photo of slacker guy with caption,G,0,0,M155_full.jpg,0,0,M155_prev.jpg,M155_icon.jpg,1,5,0,0,TRUE,0,0
 Play with Ghosts,woman almost touching hands with ghost on other side of frosted glass,G,0,0,M156_full.jpg,0,0,M156_prev.jpg,M156_icon.jpg,2,5,0,0,FALSE,0,0
 Creepy Doll,"photo of creepy doll, plan to make it an anim GIF",G,0,0,M157_full.jpg,0,0,M157_prev.jpg,M157_icon.jpg,4,5,0,0,FALSE,0,0
-Don't Lose Your Head!,photo of woman who cut her head of with scissors,G,0,0,M158_full.jpg,0,0,M158_prev.jpg,M158_icon.jpg,5,5,0,0,FALSE,0,0
-Tastes like B+,Guy in skull makeup licking a knife,G,0,0,M159_full.jpg,0,0,M159_prev.jpg,M159_icon.jpg,7,15,0,0,TRUE,skeleton,0
+"Don't Lose Your Head!",photo of woman who cut her head of with scissors,G,0,0,M158_full.jpg,0,0,M158_prev.jpg,M158_icon.jpg,5,5,0,0,FALSE,0,0
+Tastes like B Positive,Guy in skull makeup licking a knife,G,0,0,M159_full.jpg,0,0,M159_prev.jpg,M159_icon.jpg,7,15,0,0,TRUE,skeleton,0
 Arrr,b&w photo of pirate kid,G,0,0,M160_full.jpg,0,0,M160_prev.jpg,M160_icon.jpg,9,15,0,0,TRUE,0,0
-I Give You My Heart,photo of a a bloody heart in someone's hand,G,0,0,M161_full.jpg,0,0,M161_prev.jpg,M161_icon.jpg,6,5,0,0,FALSE,0,0
+I Give You My Heart,"photo of a a bloody heart in someone's hand",G,0,0,M161_full.jpg,0,0,M161_prev.jpg,M161_icon.jpg,6,5,0,0,FALSE,0,0
 Pumpkin Patch,pumpkin on ground with happy face carved in,G,0,0,M162_full.jpg,0,0,M162_prev.jpg,M162_icon.jpg,2,5,0,0,FALSE,pumpkin,0
 Start Them Early,two kids doing magic,G,0,0,M163_full.jpg,0,0,M163_prev.jpg,M163_icon.jpg,1,5,0,0,FALSE,0,0
 I Recommend a Crowbar,photo of crowbar on fancy background,U,0,0,M164_full.jpg,0,0,M164_prev.jpg,M164_icon.jpg,3,10,0,0,TRUE,0,0
