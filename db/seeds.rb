@@ -15,20 +15,20 @@ puts base
 #   LEVELS
 #
 
-(1..3).each { |n| Level.default(n, "Zombie")}
-(4..6).each { |n| Level.default(n, "Slave")}
-(7..9).each { |n| Level.default(n, "Minion")}
-(10..12).each { |n| Level.default(n, "Follower")}
-(13..15).each { |n| Level.default(n, "Recruit")}
-(16..18).each { |n| Level.default(n, "Acolyte")}
-(19..21).each { |n| Level.default(n, "Cultist")}
-(22..24).each { |n| Level.default(n, "Addict")}
-(25..28).each { |n| Level.default(n, "Junkie")}
-(29..31).each { |n| Level.default(n, "Stalker")}
-(32..34).each { |n| Level.default(n, "Beholder")}
-(35..37).each { |n| Level.default(n, "Prophet")}
-(38..40).each { |n| Level.default(n, "Demon")}
-(41..50).each { |n| Level.default(n, "MonsterBot")}
+(1..2).each { |n| Level.default(n, "Zombie")}
+(3).each { |n| Level.default(n, "Slave")}
+(4).each { |n| Level.default(n, "Minion")}
+(5).each { |n| Level.default(n, "Follower")}
+(6).each { |n| Level.default(n, "Recruit")}
+(7).each { |n| Level.default(n, "Acolyte")}
+(8).each { |n| Level.default(n, "Cultist")}
+(9).each { |n| Level.default(n, "Addict")}
+(10).each { |n| Level.default(n, "Junkie")}
+(11).each { |n| Level.default(n, "Stalker")}
+(12).each { |n| Level.default(n, "Beholder")}
+(13).each { |n| Level.default(n, "Prophet")}
+(14).each { |n| Level.default(n, "Demon")}
+(15).each { |n| Level.default(n, "MonsterBot")}
 
 (1..50).each { |n| Level.find_by_level_num(n).required_points! }
 
