@@ -3,7 +3,7 @@ Welcome to the Horde,You sent your first Monstergram!,It takes only one.,25,300,
 Accomplished Monsterizer,You sent 27 Monstergrams to your friends. We reward you for such ambition!,Put yourself out there.,25,500,B002_full.png,0,sent 27 monstergrams,generic,TRUE
 Deliverator,"You sent 103 Monstergrams! You are a true Monster, and we mean that in a good way!",Pur yourself waaaaay out there.,50,750,B003_full.png,0,sent 103 monstergrams,generic,TRUE
 Efficiency Award,You sent Monstergrams to six friends at once! Think of all the time you saved.,Kill a few birds with one stone.,10,250,B004_full.png,0,sent 6 monstergrams at once,generic,TRUE
-Lucky 13,You got monstergrams from thirteen different friends. You're a lucky critter!,Get treats from your friends.,25,250,B005_full.png,0,received monstergrams from 13 people,generic,TRUE
+Lucky 13,"You got Monstergrams from thirteen different friends. You're a lucky critter!",Get treats from your friends.,25,250,B005_full.png,0,received monstergrams from 13 people,generic,TRUE
 Schmoozinator,"You've sent Monstergrams to seven new players. Thanks for expanding the numbers of the collective, citizen.",Lure some fresh blood.,50,500,B006_full.png,0,sent monstergrams to 7 different people who don't have accounts,halloween,TRUE
 Pumpkin Snatcher,"You got four Monstergrams with pumpkins. Such versatile gourds, aren't they?",Get your friends to send you gourds.,50,500,B007_full.png,0,"received four of: M16, M18, M28, M37, M63",halloween,TRUE
 Arachnid Wrangler,You sent three spider related Monstergrams. Who doesn't love a good spider?,Won't someone think of the spiders?,50,500,B008_full.png,0,"sent three of M5, M23, M24",halloween,TRUE
@@ -15,7 +15,6 @@ Monstrous Addiction,"You logged in eleven days in a row. We know, it's hard to s
 Halloween Haunter,Happy Halloween! Now go forth and dish out some spooky fun.,Make sure to be on for the big day!,100,750,B014_full.png,0,logged in on Halloween,halloween,TRUE
 Van Helsing,"You've received five vampires from your friends. Stock up on garlic and stakes, or consider investing in a nice castle.",Scare up some bloodsuckers.,50,500,B015_full.png,0,"received five of: M27, M30, M46, M47, M76, M87, M96, M114",0,TRUE
 Cat Whisperer,You got three catty Monstergrams. Way to work that animal magnetism!,"Everywhere you look, cats are watching you.",50,500,B016_full.png,0,"received three of: M25, M29, M56, M89, M97",0,TRUE
-Bone Collector,You sent three Monstergrams containing bony human remains. We salute your apparent comfort with the concept of death!,"Skulls and bones...you dig 'em!",0,0,B017_full.png,0,"sent three of: M32, M41, M45, M99, M113",0,TRUE
 Clown Posse,clowns,0,0,0,0,0,"M31, M20",0,FALSE
 Cute Attack,cuteness,Only relentless cutesyness will do.,0,0,0,0,0,0,FALSE
 "Cute & Fuzzy",cute critters,"Adorable, soft, and fuzzy is how you roll.",0,0,0,0,0,0,FALSE
@@ -29,3 +28,4 @@ gummy,gummy love,0,0,0,0,0,0,0,FALSE
 profound,profound,0,0,0,0,0,0,0,FALSE
 Sweet Tooth,giving candy,0,0,0,0,0,0,0,FALSE
 arachnophile,way more spiders,0,0,0,0,0,0,0,FALSE
+Bone Collector,You sent three Monstergrams containing bony human remains. We salute your apparent comfort with the concept of death!,"Skulls and bones...you dig 'em!",0,0,B017_full.png,0,"sent three of: M32, M41, M45, M99, M113",0,TRUE
