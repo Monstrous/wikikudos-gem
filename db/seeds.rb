@@ -15,7 +15,7 @@ puts base
 #   LEVELS
 #
 
-(1..2).each { |n| Level.default(n, "Zombie")
+(1..2).each { |n| Level.default(n, "Zombie")}
 Level.default(3, "Slave")
 Level.default(4, "Minion")
 Level.default(5, "Follower")
