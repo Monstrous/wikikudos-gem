@@ -61,7 +61,7 @@ Haunting Red Eyes,haunting eyes,C,G,Y,M059_full.jpg,0,0,M059_prev.jpg,M059_icon.
 Haunting Green Eyes,haunting eyes,C,G,Y,M060_full.jpg,0,0,M060_prev.jpg,M060_icon.jpg,5,10,0,0,FALSE,0,dupe
 Haunting Blue Eyes,haunting eyes,C,G,Y,M061_full.jpg,0,0,M061_prev.jpg,M061_icon.jpg,9,10,0,0,FALSE,0,dupe
 Witches Hat,witches hat,C,G,N,M062_full.jpg,0,0,M062_prev.jpg,M062_icon.jpg,2,10,0,0,TRUE,0,0
-Jack O' Lantern,jack o' lantern,C,G,N,M063_full.jpg,0,0,M063_prev.jpg,M063_icon.jpg,8,15,0,0,TRUE,pumpkin,0
+"Jack O' Lantern","jack o' lantern",C,G,N,M063_full.jpg,0,0,M063_prev.jpg,M063_icon.jpg,8,15,0,0,TRUE,pumpkin,0
 Spooky Owl,whoo? whoo?,C,G,N,M064_full.jpg,0,0,M064_prev.jpg,M064_icon.jpg,7,10,0,0,TRUE,0,0
 Witches Cauldron,witches cauldron,C,G,N,M065_full.jpg,0,0,M065_prev.jpg,M065_icon.jpg,1,10,0,0,TRUE,0,0
 Monstrous Home Repair Bill,bills! scary!,F,G,N,M066_full.jpg,0,0,M066_prev.jpg,M066_icon.jpg,4,10,0,0,TRUE,0,0
@@ -129,7 +129,7 @@ Snackerz Bar,snickers,E,0,0,M127_full.jpg,0,0,M127_prev.jpg,M127_icon.jpg,4,10,0
 Classic Candy Corn,candy corn on green,E,0,0,M128_full.jpg,0,0,M128_prev.jpg,M128_icon.jpg,3,10,0,0,TRUE,candy,0
 Witch Candy,"green witch, orange pumpkins",E,0,0,M129_full.jpg,0,0,M129_prev.jpg,M129_icon.jpg,2,5,0,0,TRUE,candy,0
 Hasty Exit,kids in costume running away,G,0,0,M130_full.jpg,0,0,M130_prev.jpg,M130_icon.jpg,7,10,0,0,TRUE,0,0
-Menacing Jack O' Lantern,creepy smoking jack o lantern,G,0,0,M131_full.jpg,0,0,M131_prev.jpg,M131_icon.jpg,2,10,0,0,TRUE,pumpkin,0
+"Menacing Jack O' Lantern",creepy smoking jack o lantern,G,0,0,M131_full.jpg,0,0,M131_prev.jpg,M131_icon.jpg,2,10,0,0,TRUE,pumpkin,0
 Pumpkin Posse,jack o lantern faces,G,0,0,M132_full.jpg,0,0,M132_prev.jpg,M132_icon.jpg,5,10,0,0,TRUE,pumpkin,0
 Eat Your Heart Out,illustrated zombie snacking on a heart,G,0,0,M133_full.jpg,0,0,M133_prev.jpg,M133_icon.jpg,1,10,0,0,TRUE,zombie,0
 Pumpkin Scaring Pumpkin,big jack o lantern scares little one,G,0,0,M134_full.jpg,0,0,M134_prev.jpg,M134_icon.jpg,8,10,0,0,TRUE,pumpkin,0
