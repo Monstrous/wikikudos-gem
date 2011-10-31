@@ -13,6 +13,11 @@ namespace :soniverse do
         puts File.expand_path(File.join(File.dirname(__FILE__), '..', '..'))
       end
       
+      desc 'Update the data from db/updates.rb'
+      task :update => 'db:abort_if_pending_migrations' do
+        seed_file = File.join(File.expand_path(File.join(File.dirname(__FILE__), '..', '..')), 'db', 'update.rb')
+        load(seed_file) if File.exist?(seed_file)
+      end
     end
   end
 end
