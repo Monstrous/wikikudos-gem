@@ -27,6 +27,6 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2011 Corprew Reed. See LICENSE.txt for
+Copyright (c) 2013 Monstrous Company. See LICENSE.txt for
 further details.
 
