@@ -15,20 +15,22 @@ puts base
 #   LEVELS
 #
 
-(1..2).each { |n| Level.default(n, "Zombie")}
-Level.default(3, "Slave")
-Level.default(4, "Minion")
-Level.default(5, "Follower")
-Level.default(6, "Recruit")
-Level.default(7, "Acolyte")
-Level.default(8, "Cultist")
-Level.default(9, "Addict")
-Level.default(10, "Junkie")
-Level.default(11, "Stalker")
-Level.default(12, "Beholder")
-Level.default(13, "Prophet")
-Level.default(14, "Demon")
-(15..50).each { |n| Level.default(n, "MonsterBot")}
+#(1..2).each { |n| Level.default(n, "Zombie")} # commented out, why two zombies? -jla
+Level.default(1, "Level 1")
+Level.default(2, "Level 2")
+Level.default(3, "Level 3")
+Level.default(4, "Level 4")
+Level.default(5, "Level 5")
+Level.default(6, "Level 6")
+Level.default(7, "Level 7")
+Level.default(8, "Level 8")
+Level.default(9, "Level 9")
+Level.default(10, "Level 10")
+Level.default(11, "Level 11")
+Level.default(12, "Level 12")
+Level.default(13, "Level 13")
+Level.default(14, "Level 14")
+(15..50).each { |n| Level.default(n, "Level Master")}
 
 (1..50).each { |n| Level.find_by_level_num(n).required_points! }
 

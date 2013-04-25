@@ -1,7 +1,7 @@
 require 'rails'
 require 'action_controller'
 
-module Candy
+module Wikikudos
   class Engine < Rails::Engine
 
     rake_tasks do

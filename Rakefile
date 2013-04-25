@@ -14,11 +14,11 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "candy-gem"
-  gem.homepage = "http://github.com/Monstrous/candy-gem"
-  gem.license = "Copyright (c) 2011 Monstrous Company"
-  gem.summary = %Q{Artist Gem for Candy}
-  gem.description = %Q{Artist Gem for Candy}
+  gem.name = "wikikudos-gem"
+  gem.homepage = "http://github.com/Monstrous/wiki-kudos"
+  gem.license = "Copyright (c) 2013 Monstrous Company"
+  gem.summary = %Q{Artist Gem for Wikikudos}
+  gem.description = %Q{Artist Gem for Wikikudos}
   gem.email = "github@corprew.org"
   gem.authors = ["Corprew Reed"]
   # dependencies defined in Gemfile
