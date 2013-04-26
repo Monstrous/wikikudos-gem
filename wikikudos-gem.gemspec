@@ -595,7 +595,6 @@ Gem::Specification.new do |s|
     "public/test.gif",
     "test/helper.rb",
     "test/test_candy-gem.rb",
-    "wikikudos-gem-0.7.8.gem",
     "wikikudos-gem.gemspec"
   ]
   s.homepage = %q{http://github.com/Monstrous/wiki-kudos}
