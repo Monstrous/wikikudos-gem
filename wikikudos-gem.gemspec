@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Corprew Reed"]
-  s.date = %q{2013-04-25}
+  s.date = %q{2013-04-29}
   s.description = %q{Artist Gem for Wikikudos}
   s.email = %q{github@corprew.org}
   s.extra_rdoc_files = [
@@ -34,26 +34,9 @@ Gem::Specification.new do |s|
     "db/seeddata/assets/B006_full.png",
     "db/seeddata/assets/B007_full.png",
     "db/seeddata/assets/B008_full.png",
-    "db/seeddata/assets/B012_full.png",
-    "db/seeddata/assets/B013_full.png",
-    "db/seeddata/assets/B014_full.png",
-    "db/seeddata/assets/BM001_full.png",
-    "db/seeddata/assets/BM002_full.png",
-    "db/seeddata/assets/BM003_full.png",
-    "db/seeddata/assets/BM004_full.png",
-    "db/seeddata/assets/BM005_full.png",
-    "db/seeddata/assets/BM006_full.png",
-    "db/seeddata/assets/BM007_full.png",
-    "db/seeddata/assets/BM008_full.png",
-    "db/seeddata/assets/BM009_full.png",
-    "db/seeddata/assets/BM010_full.png",
-    "db/seeddata/assets/BM011_full.png",
-    "db/seeddata/assets/BM012_full.png",
-    "db/seeddata/assets/BM013_full.png",
-    "db/seeddata/assets/BM014_full.png",
-    "db/seeddata/assets/BM015_full.png",
-    "db/seeddata/assets/BM016_full.png",
-    "db/seeddata/assets/BM017_full.png",
+    "db/seeddata/assets/B009_full.png",
+    "db/seeddata/assets/B010_full.png",
+    "db/seeddata/assets/B011_full.png",
     "db/seeddata/assets/M001_full.jpg",
     "db/seeddata/assets/M001_icon.jpg",
     "db/seeddata/assets/M001_prev.jpg",
