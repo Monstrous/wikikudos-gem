@@ -26,7 +26,7 @@ class ArtistPolicy
       return unless message.attachable.present?
       return unless message.attachable_type == "Dedication"
 
-      badges = {1 => "Welcome to the Horde", 27 => "Accomplished Monsterizer", 103 => "Deliverator"}
+      badges = {1 => "Welcome to the Club", 27 => "Accomplished Monsterizer", 103 => "Deliverator"}
 
       badges.each do | k, v |
         if count == k
