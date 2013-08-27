@@ -563,6 +563,7 @@ Gem::Specification.new do |s|
     "db/seeddata/assets/starsPack4.png",
     "db/seeddata/assets/starsPack5.png",
     "db/seeddata/badges.csv",
+    "db/seeddata/dedications-backup.csv",
     "db/seeddata/dedications.csv",
     "db/seeddata/gear.csv",
     "db/seeddata/purchase.csv",
