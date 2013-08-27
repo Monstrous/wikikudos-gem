@@ -23,6 +23,7 @@ class ArtistPolicy
     end
     
     def self.sent_a_message(profile,message,count)
+      Rails.logger.debug "[ArtistPolicy::Badge.sent_a_message] enter #{count}"
       return unless message.attachable.present?
       return unless message.attachable_type == "Dedication"
 
