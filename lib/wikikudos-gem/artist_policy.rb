@@ -2,7 +2,7 @@ class ArtistPolicy
   class BadgeHook
     def self.added_a_new_user(profile,new_user,new_val)
       
-      badges = {7=> "Schmoozinator"}
+      badges = {3=> "Networker"}
       count = 1 # the number of new users added.
 
       badges.each do | k, v |
@@ -27,7 +27,7 @@ class ArtistPolicy
       return unless message.attachable.present?
       return unless message.attachable_type == "Dedication"
 
-      badges = {1 => "Welcome to the Club", 27 => "Accomplished Monsterizer", 103 => "Deliverator"}
+      badges = {1 => "Welcome to the Club", 3 => "Accomplished Kudo-izer ", 5 => "Padawan"}
 
       badges.each do | k, v |
         if count == k
@@ -53,8 +53,8 @@ class ArtistPolicy
       Rails.logger.debug "[ArtistPolicy::Badge.recieved_a_message] enter #{count}"
       
 
-      if Message.where(:recipient_id => profile.id).select(:sender_id).count == 13
-          b = profile.add_badge_by_name("Lucky 13")
+      if Message.where(:recipient_id => profile.id).select(:sender_id).count == 7
+          b = profile.add_badge_by_name("Lucky 7")
       end
       
       return unless message.attachable.present?
@@ -74,7 +74,7 @@ class ArtistPolicy
     end
 
     def self.sent_a_message_to_number_of_users(profile, count)
-      if count == 7
+      if count == 3
         profile.add_badge_by_name("Efficiency Award") 
         #
         #  profile already handles checking and caching.
@@ -111,7 +111,7 @@ class ArtistPolicy
     end
     
     def self.started_a_session(profile)
-      badges = {4 => "Repeat Offender", 11 => "Monstrous Addiction"}
+      badges = {2 => "Repeat Kudoer", 4 => "Kudo Addiction"}
       
       badges.each do | k, v |
         if self.login_for_number_days(profile, k)
