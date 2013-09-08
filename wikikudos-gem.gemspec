@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{wikikudos-gem}
-  s.version = "0.11.0"
+  s.version = "0.13.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Corprew Reed"]
-  s.date = %q{2013-08-26}
+  s.date = %q{2013-09-08}
   s.description = %q{Artist Gem for Wikikudos}
   s.email = %q{github@corprew.org}
   s.extra_rdoc_files = [
