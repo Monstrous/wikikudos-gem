@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{wikikudos-gem}
-  s.version = "0.15.0"
+  s.version = "0.16.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Corprew Reed"]
@@ -49,9 +49,9 @@ Gem::Specification.new do |s|
     "db/seeddata/assets/Kudos_GettingSh-tDone_Building_full.jpg",
     "db/seeddata/assets/Kudos_GettingSh-tDone_Building_icon.jpg",
     "db/seeddata/assets/Kudos_GettingSh-tDone_Building_prev.jpg",
-    "db/seeddata/assets/Kudos_GettingSh-tDone_LicensePlate_full.png",
-    "db/seeddata/assets/Kudos_GettingSh-tDone_LicensePlate_icon.png",
-    "db/seeddata/assets/Kudos_GettingSh-tDone_LicensePlate_prev.png",
+    "db/seeddata/assets/Kudos_GettingSh-tDone_LicensePlate_full.jpg",
+    "db/seeddata/assets/Kudos_GettingSh-tDone_LicensePlate_icon.jpg",
+    "db/seeddata/assets/Kudos_GettingSh-tDone_LicensePlate_prev.jpg",
     "db/seeddata/assets/Kudos_InventiveSpirit_ArtGallery_full.jpg",
     "db/seeddata/assets/Kudos_InventiveSpirit_ArtGallery_icon.jpg",
     "db/seeddata/assets/Kudos_InventiveSpirit_ArtGallery_prev.jpg",
