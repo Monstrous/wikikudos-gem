@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{wikikudos-gem}
-  s.version = "0.13.0"
+  s.version = "0.14.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Corprew Reed"]
-  s.date = %q{2013-09-08}
+  s.date = %q{2013-09-22}
   s.description = %q{Artist Gem for Wikikudos}
   s.email = %q{github@corprew.org}
   s.extra_rdoc_files = [
@@ -37,6 +37,57 @@ Gem::Specification.new do |s|
     "db/seeddata/assets/B009_full.png",
     "db/seeddata/assets/B010_full.png",
     "db/seeddata/assets/B011_full.png",
+    "db/seeddata/assets/Kudos_Coffee_full.jpg",
+    "db/seeddata/assets/Kudos_Coffee_icon.jpg",
+    "db/seeddata/assets/Kudos_Coffee_prev.jpg",
+    "db/seeddata/assets/Kudos_EngagementAndCollaboration_Chalkboard_full.jpg",
+    "db/seeddata/assets/Kudos_EngagementAndCollaboration_Chalkboard_icon.jpg",
+    "db/seeddata/assets/Kudos_EngagementAndCollaboration_Chalkboard_prev.jpg",
+    "db/seeddata/assets/Kudos_EngagementAndCollaboration_Einstein_full.jpg",
+    "db/seeddata/assets/Kudos_EngagementAndCollaboration_Einstein_icon.jpg",
+    "db/seeddata/assets/Kudos_EngagementAndCollaboration_Einstein_prev.jpg",
+    "db/seeddata/assets/Kudos_GettingSh-tDone_Building_full.jpg",
+    "db/seeddata/assets/Kudos_GettingSh-tDone_Building_icon.jpg",
+    "db/seeddata/assets/Kudos_GettingSh-tDone_Building_prev.jpg",
+    "db/seeddata/assets/Kudos_GettingSh-tDone_LicensePlate_full.png",
+    "db/seeddata/assets/Kudos_GettingSh-tDone_LicensePlate_icon.png",
+    "db/seeddata/assets/Kudos_GettingSh-tDone_LicensePlate_prev.png",
+    "db/seeddata/assets/Kudos_InventiveSpirit_ArtGallery_full.jpg",
+    "db/seeddata/assets/Kudos_InventiveSpirit_ArtGallery_icon.jpg",
+    "db/seeddata/assets/Kudos_InventiveSpirit_ArtGallery_prev.jpg",
+    "db/seeddata/assets/Kudos_InventiveSpirit_CropCircle_full.jpg",
+    "db/seeddata/assets/Kudos_InventiveSpirit_CropCircle_icon.jpg",
+    "db/seeddata/assets/Kudos_InventiveSpirit_CropCircle_prev.jpg",
+    "db/seeddata/assets/Kudos_LogoChromed_full.jpg",
+    "db/seeddata/assets/Kudos_LogoChromed_icon.jpg",
+    "db/seeddata/assets/Kudos_LogoChromed_prev.jpg",
+    "db/seeddata/assets/Kudos_LogoStitched_full.jpg",
+    "db/seeddata/assets/Kudos_LogoStitched_icon.jpg",
+    "db/seeddata/assets/Kudos_LogoStitched_prev.jpg",
+    "db/seeddata/assets/Kudos_LogoWooden_full.jpg",
+    "db/seeddata/assets/Kudos_LogoWooden_icon.jpg",
+    "db/seeddata/assets/Kudos_LogoWooden_prev.jpg",
+    "db/seeddata/assets/Kudos_OpennessAndTransparency_Ocean_full.jpg",
+    "db/seeddata/assets/Kudos_OpennessAndTransparency_Ocean_icon.jpg",
+    "db/seeddata/assets/Kudos_OpennessAndTransparency_Ocean_prev.jpg",
+    "db/seeddata/assets/Kudos_OpennessAndTransparency_PandorasBox_full.jpg",
+    "db/seeddata/assets/Kudos_OpennessAndTransparency_PandorasBox_icon.jpg",
+    "db/seeddata/assets/Kudos_OpennessAndTransparency_PandorasBox_prev.jpg",
+    "db/seeddata/assets/Kudos_PassionForMission_Astronaut_full.jpg",
+    "db/seeddata/assets/Kudos_PassionForMission_Astronaut_icon.jpg",
+    "db/seeddata/assets/Kudos_PassionForMission_Astronaut_prev.jpg",
+    "db/seeddata/assets/Kudos_PassionForMission_Neon_full.jpg",
+    "db/seeddata/assets/Kudos_PassionForMission_Neon_icon.jpg",
+    "db/seeddata/assets/Kudos_PassionForMission_Neon_prev.jpg",
+    "db/seeddata/assets/Kudos_RespectfulOfOthers_Cat_full.jpg",
+    "db/seeddata/assets/Kudos_RespectfulOfOthers_Cat_icon.jpg",
+    "db/seeddata/assets/Kudos_RespectfulOfOthers_Cat_prev.jpg",
+    "db/seeddata/assets/Kudos_RespectfulOfOthers_Shells_full.jpg",
+    "db/seeddata/assets/Kudos_RespectfulOfOthers_Shells_icon.jpg",
+    "db/seeddata/assets/Kudos_RespectfulOfOthers_Shells_prev.jpg",
+    "db/seeddata/assets/Kudos_WordCloud_full.jpg",
+    "db/seeddata/assets/Kudos_WordCloud_icon.jpg",
+    "db/seeddata/assets/Kudos_WordCloud_prev.jpg",
     "db/seeddata/assets/M001_full.jpg",
     "db/seeddata/assets/M001_icon.jpg",
     "db/seeddata/assets/M001_prev.jpg",
