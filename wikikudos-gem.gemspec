@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{wikikudos-gem}
-  s.version = "0.16.0"
+  s.name = "wikikudos-gem"
+  s.version = "0.17.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Corprew Reed"]
-  s.date = %q{2013-09-22}
-  s.description = %q{Artist Gem for Wikikudos}
-  s.email = %q{github@corprew.org}
+  s.date = "2013-12-05"
+  s.description = "Artist Gem for Wikikudos"
+  s.email = "github@corprew.org"
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README",
@@ -633,11 +633,11 @@ Gem::Specification.new do |s|
     "wikikudos-gem-0.8.0.gem",
     "wikikudos-gem.gemspec"
   ]
-  s.homepage = %q{http://github.com/Monstrous/wiki-kudos}
+  s.homepage = "http://github.com/Monstrous/wiki-kudos"
   s.licenses = ["Copyright (c) 2013 Monstrous Company"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.5.3}
-  s.summary = %q{Artist Gem for Wikikudos}
+  s.rubygems_version = "1.8.25"
+  s.summary = "Artist Gem for Wikikudos"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
